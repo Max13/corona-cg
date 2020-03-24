@@ -1,0 +1,15 @@
+{
+    "name": "max13/corona-cg",
+    "description": "Unofficial Coronavirus (Covid19) infomation website, made by a small group of tech-savvy in Congo",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Adnan RIHAN",
+            "email": "adnan@rihan.fr"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.3"
+    }
+}
