@@ -15,7 +15,7 @@
         <!-- Start Counter area -->
         <div class="row counters">
             @foreach ($page->counters as $counter)
-            <div class="col-xs-3">
+            <div class="col-xs-4 col-md-3">
                 <div class="fun_text">
                    <span class="counter-icon">
                         <img src="{{ $counter->iconpath }}" alt="{{ $counter->text }}">
