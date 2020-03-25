@@ -35,7 +35,8 @@ Seuls les fichiers et répertoires suivants sont autorisés à être modifiés:
 
  - Source SASS: `/source/_assets/sass/main.scss`
  - Source JS: `/source/_assets/js/main.js`
- - Fichiers à télécharger: `/source/_assets/files/`
+ - Fichiers à télécharger: `/config.php` (ordre à conserver) et `/source/_assets/files/`
+ - Compteurs: `/config.php` (order à conserver)
  - Images/Logo/Icones: `/source/_assets/img/`
 
 Pour le reste, il est possible de découper le layout, les en-tête et contenus en plusieurs fichiers blade si c'est pertinent.
