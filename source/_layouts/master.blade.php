@@ -41,11 +41,11 @@
 
     <div id="preloader"></div>
 
-    @include('_partials.header')
+    @include('_layouts.header')
 
     @yield('body')
 
-    @include('_partials.footer')
+    @include('_layouts.footer')
 
     <!-- Vendor JS -->
     <script src="/assets/build/js/jquery-1.12.4.min.js"></script>
