@@ -4,8 +4,18 @@
 
     @include('_partials.header')
 
-    @include('_partials.gov_statements')
+    {{-- Section to come --}}
+
+    {{-- Section to come --}}
 
     @include('_partials.measures')
+
+    {{-- Section to come --}}
+
+    @include('_partials.prevention')
+
+    @include('_partials.gov_statements')
+
+    @include('_partials.team')
 
 @endsection
