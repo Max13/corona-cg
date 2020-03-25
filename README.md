@@ -1,4 +1,6 @@
-﻿# Corona-cg
+﻿![](https://github.com/Max13/corona-cg/workflows/Deploy%20to%20gh-pages/badge.svg)
+
+# Corona-cg
 Site web (non-officiel) d'information sur la situation du Coronavirus (`Covid19`/`SARS-CoV-2`) en République du Congo.
 
 Ce projet est né de l'initiative citoyenne d'un groupe de jeunes Congolais amoureux de la tech.

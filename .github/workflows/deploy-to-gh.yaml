@@ -1,0 +1,29 @@
+name: Deploy to gh-pages
+
+on:
+  push:
+    branches: master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install composer dependencies
+        run: composer install --no-dev --prefer-dist --no-progress --no-suggest
+
+      - name: Install npm dependencies
+        run: npm i
+
+      - name: Build website
+        run: npm run production
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          cname: corona-stage.url.cg
+          deploy_key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
+          publish_dir: ./build_production
+          user_name: 'corona[bot]'
+          user_email: 'corona[bot]@users.noreply.github.com'
