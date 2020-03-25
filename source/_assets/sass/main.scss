@@ -59,32 +59,32 @@
 }
 
 body {
-    min-height: 550px !important;
+    height: 550px !important;
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
     body {
-        min-height: 600px !important;
+        height: 600px !important;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
-        min-height: 630px !important;
+        height: 630px !important;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     body {
-        min-height: 580px !important;
+        height: 580px !important;
     }
 }
 
 @media (min-width: 1270px) {
     body {
-        min-height: 650px !important;
+        height: 650px !important;
     }
 }
