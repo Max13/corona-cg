@@ -1,7 +1,22 @@
+.bg-dark-color {
+    .product-content, a, .category span {
+        background: #fff;
+        color: #1A1364 !important;
+    }
+
+    .product-img {
+        //
+    }
+}
+
 .counters {
     display: flex;
     justify-content: space-around;
     margin-top: 2em;
+
+    * {
+        color: #444 !important;
+    }
 }
 
 .header-right-link {

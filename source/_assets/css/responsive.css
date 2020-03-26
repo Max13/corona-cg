@@ -54,6 +54,23 @@
 .blog-search-option input {
     width: 75%;
 }    
+.header-right-link {
+    width: 150px;
+}
+.about-area-3 .support-all {
+    padding: 30px 20px 5px 40px;
+}    
+.team-content {
+    top: 60%;
+}    
+.feature-area-2 .feature-text {
+    margin-top: 30px;
+}    
+.feature-area-2 .feature-images {
+    margin-right: 0px;
+}    
+    
+    
     
     
     
@@ -71,7 +88,7 @@
     padding: 12px 0;
 }
 .header-right-link {
-    width: 100px;
+    width: 105px;
     margin-left: 10px;
     padding: 25px 0px;
 }
@@ -210,14 +227,38 @@
 .contact-icon {
     padding: 30px 9px 30px;
 }    
-    
-    
-    
-    
-    
-    
-    
-    
+.feature-area-2 .feature-images {
+    margin-right: 0px;
+}    
+.feature-area-2 .feature-text {
+    margin-top: 0px;
+}    
+.slide-area-3 .slide-content p {
+    font-size: 16px;
+    max-width: 480px;
+}    
+.about-area-3 .about-content {
+    display: block;
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    margin: 0 auto;
+}   
+.about-area-3 .support-all {
+    margin-top: 40px;
+}    
+.feature-area-2 .feature-text h3 {
+    font-size: 23px;
+    line-height: 32px;
+}    
+.footer-list {
+    width: 100%;
+    float: none;
+}    
+.breadcrumb h3{
+    font-size: 34px;
+    line-height: 42px;
+}    
 	
 	
 }
@@ -256,6 +297,7 @@
 .slide-area .title2 {
     font-size: 26px;
     line-height: 38px;
+    padding-bottom: 15px;
 }
 .layer-2 p {
     font-size: 14px;
@@ -422,6 +464,40 @@ blockquote {
 .footer-list li a {
     font-size: 15px;
 }
+.top-text {
+    font-size: 11px;
+}    
+.color-top {
+    padding: 2px 5px;
+    margin-right: 3px;
+}    
+.slide-area-3 .title2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.ready-btn {
+    margin-top: 10px;
+}    
+.about-area-3 .support-all{
+    margin-top: 30px;
+    padding: 30px 5px 20px 15px;
+}    
+.about-area-3 .support-content h4 {
+    font-size: 20px;
+}
+.team-content {
+    top: 60%;
+}    
+.single-member:hover .team-content {
+    top: 22%;
+}    
+.feature-area-2 .feature-images {
+    margin-right: 0px;
+}    
+.feature-area-2 .feature-text {
+    margin-top: 30px;
+}    
+    
     
     
     
