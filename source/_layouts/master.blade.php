@@ -13,23 +13,13 @@
     {{-- <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico"> --}}
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="/assets/build/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/build/css/owl.carousel.css">
-    <link rel="stylesheet" href="/assets/build/css/owl.transitions.css">
-    <link rel="stylesheet" href="/assets/build/css/animate.css">
-    <link rel="stylesheet" href="/assets/build/css/meanmenu.min.css">
-    <link rel="stylesheet" href="/assets/build/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/build/css/themify-icons.css">
-    <link rel="stylesheet" href="/assets/build/css/flaticon.css">
-    <link rel="stylesheet" href="/assets/build/css/magnific.min.css">
-    <link rel="stylesheet" href="/assets/build/css/style.css">
-    <link rel="stylesheet" href="/assets/build/css/responsive.css">
+    <link rel="stylesheet" href="{{ mix('css/vendor.css', 'assets/build') }}">
 
     <!-- Modernizr css -->
-    <script src="/assets/build/js/modernizr-2.8.3.min.js"></script>
+    <script src="{{ mix('js/modernizr-2.8.3.min.js', 'assets/build') }}"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/build/css/main.css">
+    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
     <title>Coronavirus (Covid19) | Congo Tech</title>
 </head>
@@ -48,19 +38,8 @@
     @include('_layouts.footer')
 
     <!-- Vendor JS -->
-    <script src="/assets/build/js/jquery-1.12.4.min.js"></script>
-    <script src="/assets/build/js/bootstrap.min.js"></script>
-    <script src="/assets/build/js/owl.carousel.min.js"></script>
-    <script src="/assets/build/js/jquery.stellar.min.js"></script>
-    <script src="/assets/build/js/jquery.counterup.min.js"></script>
-    <script src="/assets/build/js/waypoints.js"></script>
-    <script src="/assets/build/js/magnific.min.js"></script>
-    <script src="/assets/build/js/wow.min.js"></script>
-    <script src="/assets/build/js/jquery.meanmenu.js"></script>
-    <script src="/assets/build/js/form-validator.min.js"></script>
-    <script src="/assets/build/js/plugins.js"></script>
-    <script src="/assets/build/js/nishflu.js"></script>
-    <script src="/assets/build/js/main.js"></script>
+    <script src="{{ mix('js/vendor.js', 'assets/build') }}"></script>
+    <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
 </body>
 </html>
