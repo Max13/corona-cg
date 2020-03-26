@@ -10,10 +10,10 @@
                             <div class="logo">
                                 <!-- Brand -->
                                 <a class="navbar-brand page-scroll white-logo" href="index.html">
-                                    <img src="/assets/build/img/logo/logo2.png" alt="">
+                                    <img src="/assets/build/img/logo/logo-hw.svg" alt="Logo">
                                 </a>
                                 <a class="navbar-brand page-scroll black-logo" href="index.html">
-                                    <img src="/assets/build/img/logo/logo.png" alt="">
+                                    <img src="/assets/build/img/logo/logo-hb.svg" alt="Logo">
                                 </a>
                             </div>
                             <!-- logo end -->
