@@ -1,14 +1,15 @@
-<!-- Header slide -->
-<div class="slide-area fix" data-stellar-background-ratio="0.6" style="padding-top: 100px">
+<!-- Slider Area -->
+<div class="slide-area slide-area-3 fix" data-stellar-background-ratio="0.6">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-                <h2 class="title2">Situation du Coronavirus (COVID-19) en République&nbsp;du&nbsp;Congo</h2>
-                <h4 class="subtitle">Site d'information non officiel</h4>
-            </div>
-        </div>
 
-        <!-- Start Counter area -->
+        <!-- Title -->
+        <div class="row slide-content text-center">
+            <h2 class="title2">Le Coronavirus <!-- (COVID‑19) --> en République du Congo</h2>
+            <h4>Site d'information non officiel</h4>
+        </div>
+        <!-- /Title -->
+
+        <!-- Counter area -->
         <div class="row counters">
             @foreach ($page->counters as $counter)
             <div class="col-xs-4 col-md-3">
@@ -22,7 +23,8 @@
             </div>
             @endforeach
         </div>
-        <!-- End Counter area -->
+        <!-- /Counter area -->
+
     </div>
 </div>
-<!-- /Header slide -->
+<!-- /Slider Area -->

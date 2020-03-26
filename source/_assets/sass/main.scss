@@ -1,6 +1,7 @@
 .counters {
     display: flex;
     justify-content: space-around;
+    margin-top: 2em;
 }
 
 .header-right-link {
@@ -29,33 +30,25 @@
 
 .slide-area {
 
-    background: unset;
+    padding-top: calc(80px + 10px);
 
-    .cases {
-        color: #eee !important;
-
-        &.title {
-            margin: unset;
-        }
-
-        &.total {
-            //
-        }
-    }
-
-    .row {
-        margin-bottom: 2em;
-    }
-
-    .subtitle {
-        color: #eee;
-        font-weight: 200;
+    h1, h2, h3, h4, h5, h6, p {
+        color: #fff;
+        font-weight: 200 !important;
     }
 
     .title2 {
         max-width: unset;
     }
 
+}
+
+.slide-content {
+    margin-top: unset;
+}
+
+header {
+    height: 80px;
 }
 
 body {
