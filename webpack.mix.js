@@ -24,7 +24,7 @@ mix.webpackConfig({
         'source/_assets/css/themify-icons.css',
         'source/_assets/css/flaticon.css',
         'source/_assets/css/magnific.min.css',
-        'source/_assets/css/style.css',
+        'source/_assets/css/nishflu.css',
         'source/_assets/css/responsive.css',
     ], mix.config.publicPath + '/css/vendor.css')
     .sass('source/_assets/sass/main.scss', 'css')

@@ -9,13 +9,13 @@
 
 -----------------------------------------------------------------------------------*/
 
-    /*-----------------------------------------------------------------------------------
+    /*-----------------------------------------------------------------------------------  
      CSS INDEX
     ===================
 
     1. Theme Default CSS (body, link color, section etc)
     2. Header Top Area
-    2.1 Header Bottom Area
+    2.1 Header Bottom Area 
     2.2. Sticky Header Area
     2.3. Mobile Menu Area
     3. Intro Area
@@ -29,16 +29,18 @@
     11. Blog Area
     12. Footer Area
     13. Home 02 Area
-    14.Feature Area
+    14. Feature Area
     15. Breadcumbs Area
     16. FAQ  Area
     17. Error page area
     18. Blog Sidebar Area
     19. Blog Details
-    20.Contact CSS
+    20. Contact CSS
+    21. Home page 03 CSS
+    22. Animation CSS
 
 
-
+    
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
 /*  Google Fonts
@@ -94,32 +96,32 @@ h1, h2, h3, h4, h5, h6 {
 h1{
 	font-size: 48px;
 	line-height: 50px;
-
+		
 }
 h2{
 	font-size: 38px;
 	line-height: 46px;
-
+		
 }
 h3{
 	font-size: 30px;
 	line-height: 38px;
-
+		
 }
 h4{
 	font-size: 24px;
 	line-height: 34px;
-
+		
 }
 h5{
 	font-size: 20px;
 	line-height: 30px;
-
+		
 }
 h6{
 	font-size: 16px;
 	line-height: 28px;
-
+		
 }
 a {
 	transition: all 0.3s ease 0s;
@@ -178,15 +180,15 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
-div#preloader {
+div#preloader { 
 	position: fixed;
-	left: 0;
-	top: 0;
+	left: 0; 
+	top: 0; 
 	z-index: 99999;
 	width: 100%;
 	height: 100%;
 	overflow: visible;
-	background: #fff url(../img/logo/preloader.gif) no-repeat center center;
+	background: #fff url('img/logo/preloader.gif') no-repeat center center;
 }
 .navbar-collapse {
     padding-left: 0px;
@@ -235,7 +237,7 @@ div#preloader {
 }
 .white-headline h3,
 .white-headline h2{
-   color:#fff;
+   color:#fff; 
 }
 .section-headline h4 .color {
     color: #f92626;
@@ -245,7 +247,7 @@ div#preloader {
     margin-top: 50px;
 }
 .color{
-   color:#f92626;
+   color:#f92626; 
 }
 .text-bold {
     font-weight: 800;
@@ -256,8 +258,14 @@ div#preloader {
 .color-text{
     color: #f92626
 }
+.bg-dark-color-2 {
+    background: #130b4b;
+}
+.bg-dark-color {
+    background: #170e58;
+}
 /*----------------------------------------*/
-/*  2.1 Header Bottom Area
+/*  2.1 Header Bottom Area 
 /*----------------------------------------*/
 .header-one {
     position: absolute;
@@ -528,7 +536,7 @@ div#preloader {
 /*  3. Intro Area
 /*----------------------------------------*/
 .slide-area {
-    background: rgba(0, 0, 0, 0) url(../img/slider/h1.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(img/slider/h1.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -540,7 +548,7 @@ div#preloader {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(10, 24, 40, 0.6) none repeat scroll 0 0;
+    background: rgba(26,19,100, 0.85) none repeat scroll 0 0;
     content: "";
     z-index: -1;
 }
@@ -559,8 +567,8 @@ div#preloader {
     margin-top: 40px;
 }
 .slide-area .title2 {
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 54px;
+    line-height: 60px;
     margin-bottom: 0px;
     color: #fff;
     padding-bottom: 20px;
@@ -685,54 +693,6 @@ div#preloader {
 .top-content p {
     font-size: 17px;
     color: #444;
-}
-.welcome-area .quote-content {
-    background: #062241;
-    padding: 10%;
-    border-radius: 4px;
-    border: 1px solid #062241;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.welcome-area .contact-form input[type="text"],
-.welcome-area .contact-form input[type="email"] {
-    border: 1px solid #ccc;
-    border-radius: 0;
-    height: 44px;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    width: 100%;
-    background:transparent;
-}
-.quote-content h4{
-	color:#fff;
-	padding-bottom: 10px;
-}
-.welcome-area textarea.form-control {
-    height: 128px;
-    border: 1px solid #ccc;
-    background:transparent;
-}
-.welcome-area .quote-btn {
-    min-width: 140px;
-    padding: 11px 23px;
-    border: 1px solid #f92626;
-    background: #f92626;
-    color: #fff;
-    transition: 0.4s;
-    font-size: 15px;
-    font-weight: 700;
-    border-radius: 2px;
-    margin-top: 10px;
-    display: inline-block;
-    text-transform: uppercase;
-}
-.welcome-area .quote-btn:hover{
-	 color:#fff;
-    background: #1FC157;
-    border: 1px solid #1FC157;
-    transition: all 0.4s ease 0s;
-    transform: translateY(-4px);
 }
 /*--------------------------------*/
 /* 5.How to transmission Area
@@ -960,7 +920,7 @@ div#preloader {
     transform: translateY(-4px);
 }
 .product-content {
-    background: #05143A;
+    background: #1A1364;
     padding: 20px 20px;
 }
 .product-name h4 {
@@ -997,20 +957,6 @@ div#preloader {
 /*----------------------------------------*/
 /* 8. Prevention area css
 /*----------------------------------------*/
-.prevention-area {
-    background: #04172e;
-    position: relative;
-    padding: 100px 0px;
-}
-.prevention-area:before{
-    position:absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background: rgba(10, 24, 40, 0.70) none repeat scroll 0 0;
-    content:"";
-}
 .prevention-text{
     margin-bottom: 40px;
 }
@@ -1071,7 +1017,7 @@ div#preloader {
     text-align: center;
     border-radius: 3px;
     margin-bottom: 30px;
-    background: #04172e;
+    background: #fff;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
 .counter-icon {
@@ -1079,14 +1025,14 @@ div#preloader {
     display: block;
 }
 .fun_text .counter {
-    color: #fff;
+    color: #444;
     display: block;
     font-size: 30px;
     line-height: 44px;
     font-weight: 600;
 }
 .fun_text > h4 {
-    color: #ddd;
+    color: #444;
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 0px;
@@ -1104,6 +1050,9 @@ div#preloader {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+    background: #1A1364;
+    padding: 10px;
+    border-radius: 5px;
 }
 .team-hover {
     padding: 15px 0 0px;
@@ -1119,13 +1068,13 @@ div#preloader {
 }
 .team-content {
     position: absolute;
-    top: 65%;
+    top: 70%;
     content: "";
     left: 0;
     right: 0;
     transition: 0.5s;
-    background: rgba(4,23,46, 0.85) none repeat scroll 0 0;
-    padding: 20px 20px;
+    background: rgba(23,14,88, 0.95) none repeat scroll 0 0;
+    padding: 30px 20px;
     width: 100%;
     height: 200px;
 }
@@ -1138,7 +1087,7 @@ div#preloader {
     color: #fff;
 }
 .team-content h4 {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1170,7 +1119,7 @@ div#preloader {
 	background: #f92626;
 }
 .single-member .team-img::after{
-    background: rgba(4,23,46, 0.80) none repeat scroll 0 0;
+    background: rgba(23,14,88, 0.95) none repeat scroll 0 0;
     width: 100%;
     height: 0%;
     position: absolute;
@@ -1188,7 +1137,7 @@ div#preloader {
 }
 .single-member:hover .team-content {
     opacity: 1;
-     top: 45%;
+    top: 30%;
     transition: 0.5s;
     background: transparent;
 }
@@ -1211,7 +1160,7 @@ div#preloader {
 }
 .admin-type i, .date-type i, .comments-type i{
    color: #f92626;
-    margin-right: 5px;
+    margin-right: 5px; 
 }
 .blog-content p {
     line-height: 28px;
@@ -1260,7 +1209,7 @@ div#preloader {
 /*  12. Footer Area
 /*----------------------------------------*/
 .footer-1 {
-    background:#04172e;
+    background:#170e58;
 }
 .footer-area{
     padding: 90px 0px;
@@ -1295,7 +1244,7 @@ div#preloader {
     width: 64%;
     float: left;
     color: #fff;
-    background: #04172E;
+    background: #170e58;
     border: 1px solid #666 !important;
 }
 .suscribe-input button {
@@ -1335,7 +1284,7 @@ div#preloader {
 }
 .footer-icons ul li a:hover{
     color:#fff;
-    background:#f92626;
+    background:#f92626; 
     border: 1px solid #f92626;
     transition: 0.4s;
 }
@@ -1411,14 +1360,14 @@ div#preloader {
     color:#ddd;
 }
 .footer-area-bottom {
-    background: #031225 none repeat scroll 0 0;
+    background: #130b4b none repeat scroll 0 0;
     padding: 25px 0;
 }
 /*--------------------------------*/
 /* 13. Home 02 Area
 /*--------------------------------*/
  .slide-area-2 {
-    background: rgba(0, 0, 0, 0) url(../img/slider/h2.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(img/slider/h2.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -1443,7 +1392,7 @@ div#preloader {
     margin-top: 80px;
 }
 .how-to-area-2 .single-how {
-    background: #04172e;
+    background: #170e58;
 }
 .how-to-area-2 .big-icon img {
     border: 1px solid #fff;
@@ -1465,7 +1414,7 @@ div#preloader {
     border: 1px solid #f9f9f9;
     position: relative;
     margin-bottom: 30px;
-    background: #04172e;
+    background: #170e58;
     border-radius: 4px;
 }
 .main-symtoms {
@@ -1535,7 +1484,7 @@ div#preloader {
     z-index: 1;
 }
 .page-area {
-    background: url(../img/background/bread.jpg);
+    background: url(img/background/bread.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1547,7 +1496,7 @@ div#preloader {
     top: 0;
     width:100%;
     height: 100%;
-    background: rgba(10, 24, 40, 0.60) none repeat scroll 0 0;
+    background: rgba(23,14,88, 0.70) none repeat scroll 0 0;
     z-index: -1;
 }
 .breadcrumb .section-headline {
@@ -1575,7 +1524,7 @@ div#preloader {
 }
 .breadcrumb ul li {
     display: inline-block;
-    color: #f5f5f5;
+    color: #ddd;
     padding: 0px 10px 0px 20px;
     position: relative;
     font-size: 16px;
@@ -1636,7 +1585,7 @@ span.q-text {
 .single-faq {
     margin-bottom: 30px;
 }
-/*--------------------------------*/
+/*--------------------------------*/ 
 /* 17. Error page area
 /*--------------------------------*/
 .error-easy-text {
@@ -1796,7 +1745,7 @@ span.q-text {
 }
 .left-blog .post-img a {
     display: block;
-    border:1px solid #fafafa;
+    border:1px solid #fafafa; 
 }
 .left-blog .post-img a img {
     border-radius: 4px;
@@ -1863,7 +1812,7 @@ span.q-text {
     margin: 10px 0 0px;
     border-radius: 4px;
 }
-.pagination>li>a,
+.pagination>li>a, 
 .pagination>li>span {
     position: relative;
     float: left;
@@ -1880,11 +1829,11 @@ span.q-text {
     display: inline-block;
     margin: 0px 3px 0px 0px;
 }
-.pagination>.active>a,
-.pagination>.active>span,
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>.active>a:focus,
+.pagination>.active>a, 
+.pagination>.active>span, 
+.pagination>.active>a:hover, 
+.pagination>.active>span:hover, 
+.pagination>.active>a:focus, 
 .pagination>.active>span:focus{
     z-index: 3;
     color: #fff;
@@ -1920,7 +1869,7 @@ span.q-text {
     float: left;
     margin-right: 15px;
 	border-radius: 50%;
-
+	
 }
 .comments-list-img img {
     border-radius: 3px;
@@ -1940,7 +1889,7 @@ blockquote {
     border-left: none;
     font-style: italic;
     position: relative;
-    background: #f5f5f5;
+    background: #ddd;
 }
 blockquote::before {
     position: absolute;
@@ -2049,7 +1998,7 @@ span.email-notes{
     font-size: 20px;
 }
 .blog-details .blog-content {
-    border: 1px solid #f5f5f5;
+    border: 1px solid #ddd;
     padding: 30px 30px 15px;
 }
 .blog-details .blog-images img {
@@ -2152,6 +2101,345 @@ span.email-notes{
     background: #f92626;
     right: 0;
     margin: auto;
+}
+/*--------------------------------*/
+/* 21. Home page 03
+/*--------------------------------*/
+.slide-area-3 {
+    background: rgba(0, 0, 0, 0) url(img/slider/h3.jpg) no-repeat scroll top center / cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+.slide-area-3::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(26,19,100, 0.9) none repeat scroll 0 0;
+    content: "";
+    z-index: -1;
+}
+.top-text {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.color-top {
+    border: 1px solid #f92626;
+    padding: 2px 10px;
+    border-radius: 20px;
+    background: #f92626;
+    color: #fff;
+    margin-right: 10px;
+}
+.slide-area-3 .title2 {
+    font-size: 64px;
+    line-height: 64px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.slide-area-3 .slide-content p {
+    font-size: 18px;
+    color: #ddd;
+    max-width: 620px;
+    margin: 0 auto 20px;
+}
+.how-to-area-3{
+    padding: 100px 0px 70px;
+}
+.how-to-area-3 .single-how {
+    border-radius: 5px;
+    background: #1A1364;
+    margin-bottom: 30px;
+}
+.how-to-area-3 .how-content p {
+    margin-bottom: 0px;
+    color:#ddd;
+}
+.how-to-area-3 .how-content h4 {
+    color: #fff;
+}
+.how-to-area-3 .big-icon img{
+    border-radius: 0px;
+    border: none;
+}
+.about-area-3 {
+    position: relative;
+    z-index: -2;
+}
+.about-area-3 .about-content {
+    display: block;
+}
+.about-area-3 .support-all {
+    background: #1A1364;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px 20px 40px;
+    border-radius: 4px;
+}
+.about-area-3 .support-services {
+    margin-bottom: 40px;
+    border-radius: 3px;
+}
+.about-area-3 .support-images {
+    float: left;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    transition: 0.4s;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: 1px solid #1FC157;
+    background: #1FC157;
+    border-radius: 50px;
+}
+.about-area-3 .one-support .support-images {
+    color: #fff;
+    border: 1px solid #f92626;
+    background: #f92626;
+}
+.about-area-3 .two-support .support-images {
+    color: #fff;
+    border: 1px solid #1FC157;
+    background: #1FC157;
+}
+.about-area-3 .support-images:hover{
+    color:#fff;
+}
+.about-area-3 .support-content {
+    padding-left: 70px;
+}
+.about-area-3 .support-content h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.about-area-3 .support-content h4 a {
+     color: #fff;
+}
+.about-area-3 .support-content p {
+    margin-bottom: 0px;
+    color: #ddd;
+}
+.about-area-3 .rotmate-image{
+    position: absolute;
+    top: -30px;
+    z-index: -1;
+    opacity:0.7;
+}
+.about-area-3 .about-images{
+    position: relative;
+}
+.feature-area-2 .feature-text h3{
+    color:#fff;
+}
+.feature-area-2 .feature-text p{
+    color:#ddd;
+}
+.feature-area-2 .feature-images {
+    margin-right: 50px;
+}
+.feature-area-2 .feature-text {
+    margin-top: 60px;
+}
+.footer-2 {
+    background: url(img/background/bread.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: scroll;
+    position: relative;
+    z-index: 1;
+}
+.footer-2::after {
+    background: rgba(23,14,88, 0.90) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+span.new {
+    float: right;
+    background: #f92626;
+    padding: 3px 10px;
+    line-height: 20px;
+    color: #fff !important;
+    border-radius: 3px;
+}
+/*----------------------------------------*/
+/*  22.	Animation  CSS
+/*----------------------------------------*/
+.triangle-1 {
+    position: absolute;
+    top: 5%;
+    left:3%;
+    -webkit-animation: animationFramesOne 20s infinite linear;
+    animation: animationFramesOne 20s infinite linear;
+    opacity: 0.5;
+}
+.triangle-2 {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+    opacity: 0.5;
+}
+.rotateme {
+    animation-name: rotateme;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.last-item{
+    margin-bottom: 0px;
+}
+.item-bounce {
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    animation: bounce 3s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+@-webkit-keyframes popcircle {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  99% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes popcircle {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  99% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes animationFramesOne {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    -webkit-transform: translate(73px, -1px) rotate(36deg);
+            transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    -webkit-transform: translate(141px, 72px) rotate(72deg);
+            transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    -webkit-transform: translate(83px, 122px) rotate(108deg);
+            transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    -webkit-transform: translate(-40px, 72px) rotate(144deg);
+            transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@keyframes animationFramesOne {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    -webkit-transform: translate(73px, -1px) rotate(36deg);
+            transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    -webkit-transform: translate(141px, 72px) rotate(72deg);
+            transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    -webkit-transform: translate(83px, 122px) rotate(108deg);
+            transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    -webkit-transform: translate(-40px, 72px) rotate(144deg);
+            transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+  }
 }
 /*--------------------------------*/
 /* .End CSS
