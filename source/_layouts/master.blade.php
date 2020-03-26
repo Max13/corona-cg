@@ -29,7 +29,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
-    <title>Coronavirus (Covid19) | Congo Tech</title>
+    <title>Coronavirus (Covid-19) | Congo Tech</title>
 </head>
 <body>
 

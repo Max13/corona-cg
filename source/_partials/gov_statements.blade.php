@@ -1,9 +1,9 @@
 <!-- Gov communications -->
-<div class="product-area area-padding-2">
+<div class="product-area bg-dark-color area-padding-2">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="section-headline text-center">
+                <div class="prevention-text text-center">
                     <h3>Communications officielles</h3>
                     <p>Retrouvez ici les communications officielles du gouvernement de la République du Congo</p>
                 </div>

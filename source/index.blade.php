@@ -4,15 +4,13 @@
 
     @include('_partials.header')
 
-    {{-- Section to come --}}
+    @include('_partials.about_corona')
 
-    {{-- Section to come --}}
-
-    @include('_partials.measures')
-
-    {{-- Section to come --}}
+    @include('_partials.symptoms')
 
     @include('_partials.prevention')
+
+    @include('_partials.measures')
 
     @include('_partials.gov_statements')
 

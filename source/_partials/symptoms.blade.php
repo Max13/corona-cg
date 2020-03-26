@@ -5,7 +5,7 @@
             <div class="col-md-6 col-sm-6 hidden-xs">
                 <div class="about-text left-text">
                     <span class="color-head">More Information</span>
-                    <h3>Mesures prises par le gouvernement</h3>
+                    <h3>Symptômes</h3>
                     <p>Replacing a  maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create. Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
                     <ul>
                         <li><a href="#">Avoid contact sick people</a></li>
