@@ -1,4 +1,7 @@
 {
-    "/js/main.js": "/js/main.js?id=d41d8cd98f00b204e980",
-    "/css/main.css": "/css/main.css?id=3874e14d4363bd5002c2"
+    "/js/main.js": "/js/main.js?id=8f387f09cf3c545a19ea",
+    "/js/modernizr-2.8.3.min.js": "/js/modernizr-2.8.3.min.js?id=19e6725369cefa66228d",
+    "/css/main.css": "/css/main.css?id=3874e14d4363bd5002c2",
+    "/css/vendor.css": "/css/vendor.css?id=c1f8fcc5ab1b18097c57",
+    "/js/vendor.js": "/js/vendor.js?id=d08ae1d389c1f2e36825"
 }
