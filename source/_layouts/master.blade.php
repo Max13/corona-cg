@@ -9,8 +9,16 @@
     <meta name="language" content="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- favicon -->
-    {{-- <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico"> --}}
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/build/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/build/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/build/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/build/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/build/img/favicon/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/assets/build/img/favicon/browserconfig.xml">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/build/img/favicon/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="{{ mix('css/vendor.css', 'assets/build') }}">
