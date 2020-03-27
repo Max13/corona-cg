@@ -95,39 +95,48 @@ return [
     // Keep order
     'team' => [
         [
-            'name' => 'Christ AZIKA-EROS',
-            'avatar' => '/assets/build/img/team/christ.jpg',
-            'links' => [
-                'twitter' => 'https://twitter.com/supm4n',
-                'facebook' => 'https://facebook.com/supm4n',
-                'link' => 'http://mayelestrategy.com/',
-                'youtube' => 'https://youtube.com/IamSupm4n',
-            ],
-        ],[
-            'name' => 'Serge-Parfait GOMA',
-            'avatar' => '/assets/build/img/team/serge.jpg',
-            'links' => [
-                //
-            ],
-        ],[
-            'name' => 'Vérone MANKOU',
-            'avatar' => '/assets/build/img/team/verone.jpg',
-            'links' => [
-                'twitter' => 'https://twitter.com/verone',
-                'medium' => 'https://medium.com/@verone',
-                'facebook' => 'https://www.facebook.com/VeroneMankou',
-            ],
-        ],[
-            'name' => 'Adnan RIHAN',
+            'name' => 'Adnan',
             'avatar' => '/assets/build/img/team/adnan.jpg',
             'links' => [
                 'link' => 'https://adnan.rihan.cg/',
             ],
         ],[
-            'name' => 'Estime SANDZA',
+            'name' => 'Christ',
+            'avatar' => '/assets/build/img/team/christ.jpg',
+            'links' => [
+                'twitter' => 'https://twitter.com/supm4n',
+                'facebook' => 'https://facebook.com/supm4n',
+                'youtube' => 'https://youtube.com/IamSupm4n',
+            ],
+        ],[
+            'name' => 'Daniella',
+            'avatar' => '/assets/build/img/team/daniella.jpg',
+            'links' => [
+                'linkedin' => 'https://linkedin.com/in/samael-daniella-evoko-230949137',
+                'twitter' => 'https://twitter.com/Mael_Dani',
+            ],
+        ],[
+            'name' => 'Estime',
             'avatar' => '/assets/build/img/team/estime.jpg',
             'links' => [
-                //
+                'linkedin' => 'https://linkedin.com/in/est1me',
+                'twitter' => 'https://twitter.com/est1me',
+                'facebook' => 'https://facebook.com/est1me',
+            ],
+        ],[
+            'name' => 'Serge-Parfait',
+            'avatar' => '/assets/build/img/team/serge.jpg',
+            'links' => [
+                'facebook' => 'https://www.facebook.com/sergeparfait.goma',
+                'linkedin' => 'https://www.linkedin.com/in/serge-parfait-goma-7ab10177',
+            ],
+        ],[
+            'name' => 'Vérone',
+            'avatar' => '/assets/build/img/team/verone.jpg',
+            'links' => [
+                'twitter' => 'https://twitter.com/verone',
+                'medium' => 'https://medium.com/@verone',
+                'facebook' => 'https://www.facebook.com/VeroneMankou',
             ],
         ],
     ],

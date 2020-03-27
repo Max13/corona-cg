@@ -6,8 +6,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="section-headline text-center">
-                    <h3>Congo Tech</h3>
-                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                    <h3>L'Équipe</h3>
                 </div>
             </div>
         </div>
@@ -17,13 +16,13 @@
             <div class="team-member">
                 @foreach ($page->team as $member)
                 <!-- team member-->
-                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-3">
                     <div class="single-member">
                         <div class="team-img">
                             <img src="{{ $member->avatar }}" alt="Portrait {{ $member->name }}">
                         </div>
                         <div class="team-content text-center">
-                            <h4>{{ $member->name }}</h4>
+                            <h5 class="text-uppercase">{{ $member->name }}</h5>
                             {{-- <p>doctor sergeant</p> --}}
                             <ul class="social-icon">
                                 @foreach ($member->links as $platform => $link)
