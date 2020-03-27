@@ -1,7 +1,75 @@
+.about-text li {
+    padding: 10px 0px 10px 45px;
+
+    a {
+        padding: unset !important;
+    }
+}
+
+.about-area-3 .support-all {
+    background: #000;
+}
+
+.bg-dark-color {
+    background: #000;
+}
+
+.bg-dark-color-2 {
+    background: #000;
+}
+
+.footer-area-bottom {
+    background: #000 none repeat scroll 0 0;
+}
+
+.footer-1 {
+    background: #000;
+}
+
+.how-to-area-2 .single-how {
+    background: #000;
+}
+
+.how-to-area-3 .single-how {
+    background: #000;
+}
+
+.product-content {
+    background: #000;
+}
+
+.single-member {
+    background: #000;
+
+    .team-img::after {
+        background: rgba(0, 0, 0, 0.95) none repeat scroll 0 0;
+    }
+}
+
+.single-symtoms {
+    background: #000;
+}
+
+.slide-area, .slide-area-3 {
+    background: unset;
+}
+
+.slide-area-3::after {
+    background: rgba(0, 0, 0, .85) none repeat scroll 0 0;
+}
+
+.suscribe-input input {
+    background: #000;
+}
+
+.team-content {
+    background: rgba(0, 0, 0, 0.95) none repeat scroll 0 0;
+}
+
 .bg-dark-color {
     .product-content, .product-content a, .category span {
         background: #fff;
-        color: #1A1364 !important;
+        color: #000 !important;
     }
 
     .product-img {
