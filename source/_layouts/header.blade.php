@@ -29,6 +29,7 @@
                                     <div class="main-menu">
                                         <ul class="nav navbar-nav navbar-right">
                                             <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
+                                            <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                             {{--
                                             <li><a class="pages" href="#">Pages</a>
                                                 <ul class="sub-menu">
@@ -64,6 +65,7 @@
                         <nav id="dropdown">
                             <ul>
                                 <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
+                                <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                 {{--
                                 <li><a class="pages" href="#">Pages</a>
                                     <ul class="sub-menu">
