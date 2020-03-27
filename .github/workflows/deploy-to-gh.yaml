@@ -22,7 +22,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          cname: corona-stage.url.cg
+          cname: coronavirus.tech.cg
           deploy_key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
           publish_dir: ./build_production
           user_name: 'corona[bot]'
