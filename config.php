@@ -107,7 +107,7 @@ return [
             ],
         ],[
             'name' => 'Vérone MANKOU',
-            'avatar' => 'https://via.placeholder.com/400.jpg?text=Vérone+MANKOU',
+            'avatar' => '/assets/build/img/team/verone.jpg',
             'links' => [
                 'twitter' => 'https://twitter.com/verone',
                 'medium' => 'https://medium.com/@verone',
@@ -121,7 +121,7 @@ return [
             ],
         ],[
             'name' => 'Estime SANDZA',
-            'avatar' => 'https://via.placeholder.com/400.jpg?text=Estime+SANDZA',
+            'avatar' => '/assets/build/img/team/estime.jpg',
             'links' => [
                 //
             ],
