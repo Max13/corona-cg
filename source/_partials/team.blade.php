@@ -20,7 +20,7 @@
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
                     <div class="single-member">
                         <div class="team-img">
-                            <img src="/assets/build/img/team/t1.jpg" alt="Portrait {{ $member->name }}">
+                            <img src="{{ $member->avatar }}" alt="Portrait {{ $member->name }}">
                         </div>
                         <div class="team-content text-center">
                             <h4>{{ $member->name }}</h4>
