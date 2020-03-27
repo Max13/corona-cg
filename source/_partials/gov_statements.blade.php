@@ -1,5 +1,5 @@
 <!-- Gov communications -->
-<div class="product-area bg-dark-color area-padding-2">
+<div id="statements" class="product-area bg-dark-color area-padding-2">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">

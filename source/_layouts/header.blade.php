@@ -32,6 +32,7 @@
                                             <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                             <li><a class="pages" href="#preventions">Préventions</a></li>
                                             <li><a class="pages" href="#measures">Mesures</a></li>
+                                            <li><a class="pages" href="#statements">Déclarations</a></li>
                                             <li><a class="pages" href="#team">L'équipe</a></li>
                                             {{--
                                             <li><a class="pages" href="#">Pages</a>
@@ -71,6 +72,7 @@
                                 <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                 <li><a class="pages" href="#preventions">Préventions</a></li>
                                 <li><a class="pages" href="#measures">Mesures</a></li>
+                                <li><a class="pages" href="#statements">Déclarations</a></li>
                                 <li><a class="pages" href="#team">L'équipe</a></li>
                                 {{--
                                 <li><a class="pages" href="#">Pages</a>
