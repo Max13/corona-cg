@@ -1,11 +1,11 @@
 <!-- Start Prevention area -->
-<div class="prevention-area bg-dark-color area-padding-2 fix">
+<div id="preventions" class="prevention-area bg-dark-color area-padding-2 fix">
     <div class="container">
        <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                  <div class="prevention-text text-center">
                     <h3>Mesures de prévention</h3>
-                    <p>Gestes barrière</p>
+                    <p>La COVID-19 est transmise par des personnes porteuses du virus après de simples contacts étroits. À ce jour, le meilleur moyen de se protéger de la maladie est le respect des mesures barrière.</p>
                 </div>
             </div>
         </div>
@@ -14,42 +14,17 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="prevention-inner left-prevention">
                         <div class="prevention-content">
+                            @foreach ($page->preventions->do as $do)
                             <div class="single-prevention">
                                 <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p1.png" alt="">
+                                    <img src="{{ $do->picto }}" alt="{{ $do->title }}">
                                 </div>
                                 <div class="pre-text">
-                                    <h4>Wash your hands sanitizer</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
+                                    <h4>{{ $do->title }}</h4>
+                                    <p>{{ $do->text }}</p>
                                 </div>
                             </div>
-                            <div class="single-prevention">
-                                <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p2.png" alt="">
-                                </div>
-                                <div class="pre-text">
-                                    <h4>Ware a face mask outside</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
-                                </div>
-                            </div>
-                            <div class="single-prevention">
-                                <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p3.png" alt="">
-                                </div>
-                                <div class="pre-text">
-                                    <h4>Cover your cough tissue paper</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
-                                </div>
-                            </div>
-                            <div class="single-prevention">
-                                <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p4.png" alt="">
-                                </div>
-                                <div class="pre-text">
-                                    <h4>Check your body regulerly</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -57,42 +32,17 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="prevention-inner right-prevention">
                         <div class="prevention-content">
+                            @foreach ($page->preventions->dont as $dont)
                             <div class="single-prevention">
                                 <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p5.png" alt="">
+                                    <img src="{{ $dont->picto }}" alt="{{ $dont->title }}">
                                 </div>
                                 <div class="pre-text">
-                                    <h4>Avoid contact with sick people</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
+                                    <h4>{{ $dont->title }}</h4>
+                                    <p>{{ $dont->text }}</p>
                                 </div>
                             </div>
-                            <div class="single-prevention">
-                                <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p6.png" alt="">
-                                </div>
-                                <div class="pre-text">
-                                    <h4>Avoid contact animals</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
-                                </div>
-                            </div>
-                            <div class="single-prevention">
-                                <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p7.png" alt="">
-                                </div>
-                                <div class="pre-text">
-                                    <h4>Avoid crowded places</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
-                                </div>
-                            </div>
-                            <div class="single-prevention">
-                                <div class="pre-img">
-                                    <img src="/assets/build/img/prevention/p8.png" alt="">
-                                </div>
-                                <div class="pre-text">
-                                    <h4>Contaminated objects</h4>
-                                    <p>Help agencies to define their new business objectives and then create software</p>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
