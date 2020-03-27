@@ -22,7 +22,7 @@
                             <div class="product-summary">
                                 <div class="product-details">
                                     <div class="add-cart">
-                                        <a href="{{ $statement->filepath }}" target="_blank">Télécharger</a>
+                                        <a href="{{ $statement->filepath }}" target="_blank">Voir</a>
                                     </div>
                                 </div>
                             </div>

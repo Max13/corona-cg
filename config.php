@@ -9,7 +9,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 4,
+            'n' => 19,
             'text' => 'Confirmés',
         ],
         'recovered' => [
@@ -27,6 +27,10 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°5',
+            'date' => '27 mars 2020',
+            'filepath' => 'https://www.facebook.com/VoxCongo/videos/687052672045469/',
+        ],[
             'name' => 'Déclaration n°4',
             'date' => '21 mars 2020',
             'filepath' => '/assets/build/files/Déclaration_du_gouvernement-4.pdf',
