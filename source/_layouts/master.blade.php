@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="author" content="Congo Tech <https://github.com/max13/corona-cg>">
-    <meta name="description" content="Site non officiel d'information sur le Coronavirus et son évolution en République du Congo. L'idée est née d'une initiative citoyenne d'un groupe de jeunes congolais amoureux de la tech.">
+    <meta name="description" content="Site d'informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.">
     <meta name="language" content="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
