@@ -9,10 +9,10 @@
                         <div class="col-md-3 col-sm-3">
                             <div class="logo">
                                 <!-- Brand -->
-                                <a class="navbar-brand page-scroll white-logo" href="index.html">
+                                <a class="navbar-brand page-scroll white-logo" href="/">
                                     <img src="/assets/build/img/logo/logo-hw.svg" alt="Logo">
                                 </a>
-                                <a class="navbar-brand page-scroll black-logo" href="index.html">
+                                <a class="navbar-brand page-scroll black-logo" href="/">
                                     <img src="/assets/build/img/logo/logo-hb.svg" alt="Logo">
                                 </a>
                             </div>
@@ -26,14 +26,10 @@
                             <!-- mainmenu start -->
                             <nav class="navbar navbar-default">
                                 <div class="collapse navbar-collapse" id="navbar-example">
-                                    {{-- <div class="main-menu">
+                                    <div class="main-menu">
                                         <ul class="nav navbar-nav navbar-right">
-                                            <li><a class="pages" href="index.html">Home</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html">Home 01</a></li>
-                                                    <li><a href="index-2.html">Home 02</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
+                                            {{--
                                             <li><a class="pages" href="#">Pages</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="about.html">About us</a></li>
@@ -43,18 +39,9 @@
                                                     <li><a href="error.html">Error</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="prevention.html">Prevention</a></li>
-                                            <li><a href="product.html">Product</a></li>
-                                            <li><a class="pages" href="#">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog.html">Blog grid</a></li>
-                                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">contacts</a></li>
+                                            --}}
                                         </ul>
-                                    </div> --}}
+                                    </div>
                                 </div>
                             </nav>
                             <!-- mainmenu end -->
@@ -72,16 +59,12 @@
                 <div class="col-md-12">
                     <div class="mobile-menu">
                         <div class="logo">
-                            <a href="index.html"><img src="/assets/build/img/logo/logo.png" alt="" /></a>
+                            <a href="/"><img src="/assets/build/img/logo/logo-hb.svg" alt="Logo" /></a>
                         </div>
-                        {{-- <nav id="dropdown">
+                        <nav id="dropdown">
                             <ul>
-                                <li><a class="pages" href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index-2.html">Home 02</a></li>
-                                    </ul>
-                                </li>
+                                <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
+                                {{--
                                 <li><a class="pages" href="#">Pages</a>
                                     <ul class="sub-menu">
                                         <li><a href="about.html">About us</a></li>
@@ -91,18 +74,8 @@
                                         <li><a href="error.html">Error</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="prevention.html">Prevention</a></li>
-                                <li><a href="product.html">Product</a></li>
-                                <li><a class="pages" href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog grid</a></li>
-                                        <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">contacts</a></li>
-                            </ul>
-                        </nav> --}}
+                                --}}
+                        </nav>
                     </div>
                 </div>
             </div>

@@ -1,11 +1,23 @@
 .bg-dark-color {
-    .product-content, a, .category span {
+    .product-content, .product-content a, .category span {
         background: #fff;
         color: #1A1364 !important;
     }
 
     .product-img {
         //
+    }
+}
+
+.cite-source {
+    margin-top: 2em;
+
+    &.text-right::after {
+        content: "\00A0 \2014";
+    }
+
+    &:not(.text-right)::before {
+        content: "\2014 \00A0";
     }
 }
 
