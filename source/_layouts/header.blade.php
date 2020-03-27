@@ -18,11 +18,11 @@
                             </div>
                             <!-- logo end -->
                         </div>
-                        <div class="col-md-9 col-sm-9">
                             <div class="header-right-link">
                                 <!-- search option end -->
                                 <a class="s-menu" href="tel:3434">Urgences: 3434</a>
                             </div>
+                        {{-- <div class="col-md-9 col-sm-9">
                             <!-- mainmenu start -->
                             <nav class="navbar navbar-default">
                                 <div class="collapse navbar-collapse" id="navbar-example">
@@ -34,7 +34,7 @@
                                             <li><a class="pages" href="#measures">Mesures</a></li>
                                             <li><a class="pages" href="#statements">Déclarations</a></li>
                                             <li><a class="pages" href="#team">L'équipe</a></li>
-                                            {{--
+
                                             <li><a class="pages" href="#">Pages</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="about.html">About us</a></li>
@@ -44,11 +44,11 @@
                                                     <li><a href="error.html">Error</a></li>
                                                 </ul>
                                             </li>
-                                            --}}
+
                                         </ul>
                                     </div>
                                 </div>
-                            </nav>
+                            </nav> --}}
                             <!-- mainmenu end -->
                         </div>
                     </div>
@@ -68,7 +68,11 @@
                         </div>
                         <nav id="dropdown">
                             <ul>
-                                <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
+                                <div class="text-center">
+                                    <a href="tel:3434" class="btn btn-danger btn-sm">Urgence: 3434</a>
+                                </div>
+
+                                <li style="border-top: unset;"><a class="pages" href="#about_coronavirus">Appelations</a></li>
                                 <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                 <li><a class="pages" href="#preventions">Préventions</a></li>
                                 <li><a class="pages" href="#measures">Mesures</a></li>
