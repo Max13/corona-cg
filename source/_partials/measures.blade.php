@@ -2,7 +2,7 @@
 <div id="measures" class="about-area bg-color fix area-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 hidden-xs">
+            <div class="col-md-6 col-sm-6">
                 <div class="about-text left-text">
                     <h3>Mesures prises par le gouvernement</h3>
 
