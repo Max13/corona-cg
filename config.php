@@ -23,6 +23,7 @@ return [
             'text' => 'Décès',
         ],
     ],
+
     // Keep order
     'official_statements' => [
         [
@@ -41,6 +42,39 @@ return [
             'name' => 'Déclaration n°1',
             'date' => '14 mars 2020',
             'filepath' => '/assets/build/files/Déclaration_du_gouvernement-1.pdf',
+        ],
+    ],
+
+    // Keep order
+    'team' => [
+        [
+            'name' => 'Christ AZIKA-EROS',
+            'links' => [
+                'facebook' => 'https://facebook.com/supm4n',
+                'twitter' => 'https://twitter.com/supm4n',
+            ],
+        ],[
+            'name' => 'Serge-Parfait GOMA',
+            'links' => [
+                //
+            ],
+        ],[
+            'name' => 'Vérone MANKOU',
+            'links' => [
+                'twitter' => 'https://twitter.com/verone',
+                'medium' => 'https://medium.com/@verone',
+                'facebook' => 'https://www.facebook.com/VeroneMankou',
+            ],
+        ],[
+            'name' => 'Adnan RIHAN',
+            'links' => [
+                'link' => 'https://adnan.rihan.cg/',
+            ],
+        ],[
+            'name' => 'Estime SANDZA',
+            'links' => [
+                //
+            ],
         ],
     ],
 ];

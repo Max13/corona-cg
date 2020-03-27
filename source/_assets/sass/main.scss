@@ -23,6 +23,11 @@
     width: unset;
 }
 
+.justify-content-around {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
 .product-img {
 
     border: solid 1px;
@@ -60,6 +65,14 @@
 
 .slide-content {
     margin-top: unset;
+}
+
+.team-content {
+    top: 70%;
+
+    h1, h2, h3, h4, h5, h6, p {
+        color: #fff;
+    }
 }
 
 header {

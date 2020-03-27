@@ -9,13 +9,13 @@
 
 -----------------------------------------------------------------------------------*/
 
-    /*-----------------------------------------------------------------------------------  
+    /*-----------------------------------------------------------------------------------
      CSS INDEX
     ===================
 
     1. Theme Default CSS (body, link color, section etc)
     2. Header Top Area
-    2.1 Header Bottom Area 
+    2.1 Header Bottom Area
     2.2. Sticky Header Area
     2.3. Mobile Menu Area
     3. Intro Area
@@ -40,7 +40,7 @@
     22. Animation CSS
 
 
-    
+
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
 /*  Google Fonts
@@ -96,32 +96,32 @@ h1, h2, h3, h4, h5, h6 {
 h1{
 	font-size: 48px;
 	line-height: 50px;
-		
+
 }
 h2{
 	font-size: 38px;
 	line-height: 46px;
-		
+
 }
 h3{
 	font-size: 30px;
 	line-height: 38px;
-		
+
 }
 h4{
 	font-size: 24px;
 	line-height: 34px;
-		
+
 }
 h5{
 	font-size: 20px;
 	line-height: 30px;
-		
+
 }
 h6{
 	font-size: 16px;
 	line-height: 28px;
-		
+
 }
 a {
 	transition: all 0.3s ease 0s;
@@ -180,15 +180,15 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
-div#preloader { 
+div#preloader {
 	position: fixed;
-	left: 0; 
-	top: 0; 
+	left: 0;
+	top: 0;
 	z-index: 99999;
 	width: 100%;
 	height: 100%;
 	overflow: visible;
-	background: #fff url('img/logo/preloader.gif') no-repeat center center;
+	background: #fff url('../img/logo/preloader.gif') no-repeat center center;
 }
 .navbar-collapse {
     padding-left: 0px;
@@ -237,7 +237,7 @@ div#preloader {
 }
 .white-headline h3,
 .white-headline h2{
-   color:#fff; 
+   color:#fff;
 }
 .section-headline h4 .color {
     color: #f92626;
@@ -247,7 +247,7 @@ div#preloader {
     margin-top: 50px;
 }
 .color{
-   color:#f92626; 
+   color:#f92626;
 }
 .text-bold {
     font-weight: 800;
@@ -265,7 +265,7 @@ div#preloader {
     background: #170e58;
 }
 /*----------------------------------------*/
-/*  2.1 Header Bottom Area 
+/*  2.1 Header Bottom Area
 /*----------------------------------------*/
 .header-one {
     position: absolute;
@@ -536,7 +536,7 @@ div#preloader {
 /*  3. Intro Area
 /*----------------------------------------*/
 .slide-area {
-    background: rgba(0, 0, 0, 0) url(img/slider/h1.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(../img/slider/h1.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -1160,7 +1160,7 @@ div#preloader {
 }
 .admin-type i, .date-type i, .comments-type i{
    color: #f92626;
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 .blog-content p {
     line-height: 28px;
@@ -1284,7 +1284,7 @@ div#preloader {
 }
 .footer-icons ul li a:hover{
     color:#fff;
-    background:#f92626; 
+    background:#f92626;
     border: 1px solid #f92626;
     transition: 0.4s;
 }
@@ -1367,7 +1367,7 @@ div#preloader {
 /* 13. Home 02 Area
 /*--------------------------------*/
  .slide-area-2 {
-    background: rgba(0, 0, 0, 0) url(img/slider/h2.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(../img/slider/h2.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -1484,7 +1484,7 @@ div#preloader {
     z-index: 1;
 }
 .page-area {
-    background: url(img/background/bread.jpg);
+    background: url(../img/background/bread.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1585,7 +1585,7 @@ span.q-text {
 .single-faq {
     margin-bottom: 30px;
 }
-/*--------------------------------*/ 
+/*--------------------------------*/
 /* 17. Error page area
 /*--------------------------------*/
 .error-easy-text {
@@ -1745,7 +1745,7 @@ span.q-text {
 }
 .left-blog .post-img a {
     display: block;
-    border:1px solid #fafafa; 
+    border:1px solid #fafafa;
 }
 .left-blog .post-img a img {
     border-radius: 4px;
@@ -1812,7 +1812,7 @@ span.q-text {
     margin: 10px 0 0px;
     border-radius: 4px;
 }
-.pagination>li>a, 
+.pagination>li>a,
 .pagination>li>span {
     position: relative;
     float: left;
@@ -1829,11 +1829,11 @@ span.q-text {
     display: inline-block;
     margin: 0px 3px 0px 0px;
 }
-.pagination>.active>a, 
-.pagination>.active>span, 
-.pagination>.active>a:hover, 
-.pagination>.active>span:hover, 
-.pagination>.active>a:focus, 
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
 .pagination>.active>span:focus{
     z-index: 3;
     color: #fff;
@@ -1869,7 +1869,7 @@ span.q-text {
     float: left;
     margin-right: 15px;
 	border-radius: 50%;
-	
+
 }
 .comments-list-img img {
     border-radius: 3px;
@@ -2106,7 +2106,7 @@ span.email-notes{
 /* 21. Home page 03
 /*--------------------------------*/
 .slide-area-3 {
-    background: rgba(0, 0, 0, 0) url(img/slider/h3.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(../img/slider/h3.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -2251,7 +2251,7 @@ span.email-notes{
     margin-top: 60px;
 }
 .footer-2 {
-    background: url(img/background/bread.jpg);
+    background: url(../img/background/bread.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
