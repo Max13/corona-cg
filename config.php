@@ -54,7 +54,7 @@ return [
         'do' => [
             [
                 'title' => 'Se laver fréquemment les mains',
-                'text' => 'Effectuez ce lavage avec une solution hydroalcoolique ou avec l‘eau et du savon',
+                'text' => 'Effectuez ce lavage avec une solution hydroalcoolique ou avec de l‘eau et du savon',
                 'picto' => '/assets/build/img/prevention/p1.png',
             ],[
                 'title' => 'Tousser ou éternuer à l‘abri',
