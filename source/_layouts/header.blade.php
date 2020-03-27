@@ -31,6 +31,7 @@
                                             <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
                                             <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                             <li><a class="pages" href="#preventions">Préventions</a></li>
+                                            <li><a class="pages" href="#measures">Mesures</a></li>
                                             {{--
                                             <li><a class="pages" href="#">Pages</a>
                                                 <ul class="sub-menu">
@@ -68,6 +69,7 @@
                                 <li><a class="pages" href="#about_coronavirus">Appelations</a></li>
                                 <li><a class="pages" href="#symptoms">Symptômes</a></li>
                                 <li><a class="pages" href="#preventions">Préventions</a></li>
+                                <li><a class="pages" href="#measures">Mesures</a></li>
                                 {{--
                                 <li><a class="pages" href="#">Pages</a>
                                     <ul class="sub-menu">
