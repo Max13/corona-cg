@@ -20,7 +20,7 @@
                         </div>
                             <div class="header-right-link">
                                 <!-- search option end -->
-                                <a class="s-menu" href="tel:3434">Urgences: 3434</a>
+                                <a class="s-menu" href="tel:3434">N° d'urgence: 3434</a>
                             </div>
                         {{-- <div class="col-md-9 col-sm-9">
                             <!-- mainmenu start -->
@@ -69,7 +69,7 @@
                         <nav id="dropdown">
                             <ul>
                                 <div class="text-center">
-                                    <a href="tel:3434" class="btn btn-danger btn-sm">Urgence: 3434</a>
+                                    <a href="tel:3434" class="btn btn-danger btn-sm">N° d'urgence: 3434</a>
                                 </div>
 
                                 <li style="border-top: unset;"><a class="pages" href="#about_coronavirus">Appelations</a></li>
