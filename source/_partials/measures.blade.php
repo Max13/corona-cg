@@ -12,8 +12,8 @@
                         <li>Fermeture de toutes les frontières</li>
                         <li>Fermeture des écoles et universités</li>
                         <li>Limitation des passagers des bus et taxis</li>
-                        <li>Interdiction des rassemblements</li>
-                        <li>Fermeture des lieux de culte et loisir</li>
+                        <li>Restriction sur les rassemblements</li>
+                        <li>Fermeture des lieux de culte et de loisir</li>
                     </ul>
                 </div>
             </div>
