@@ -17,7 +17,7 @@
                     <div class="single-product">
                         <div class="product-img">
                             <a href="{{ $statement->filepath }}" target="_blank">
-                                <img class="first-img" src="/assets/build/img/coa-cg.svg" alt="Armoiries de la République du Congo">
+                                <img class="first-img" src="{{ $statement->icon }}" alt="{{ $statement->name }}">
                             </a>
                             <div class="product-summary">
                                 <div class="product-details">
