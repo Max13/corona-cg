@@ -5,7 +5,7 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="feature-content">
                     <div class="feature-images">
-                        <img src="/assets/build/img/about/about_coronavirus.jpg" alt="Image point d'interrogation">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1Iko6Tk9_KmP5KH7xwNnENYBPzZYSqcfA" width="100%" height="450" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>
