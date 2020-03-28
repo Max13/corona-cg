@@ -9,19 +9,39 @@
         </div>
         <!-- /Title -->
 
-        <!-- Counter area -->
-        <div class="row counters">
+        <!-- Counter area xs -->
+        <div class="visible-xs-block mt-3">
             @foreach ($page->counters as $counter)
-            <div class="col-xs-4 col-md-3">
-                <div class="fun_text">
-                   <span class="counter-icon">
-                        <img src="{{ $counter->iconpath }}" alt="{{ $counter->text }}">
-                    </span>
-                    <span class="counter">{{ $counter->n }}</span>
-                    <h4>{{ $counter->text }}</h4>
+            <div class="row counters">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="fun_text">
+                       <span class="counter-icon">
+                            <img src="{{ $counter->iconpath }}" alt="{{ $counter->text }}">
+                        </span>
+                        <span class="counter">{{ $counter->n }}</span>
+                        <h4>{{ $counter->text }}</h4>
+                    </div>
                 </div>
             </div>
             @endforeach
+        </div>
+        <!-- /Counter area -->
+
+        <!-- Counter area sm -->
+        <div class="hidden-xs">
+            <div class="row counters">
+                @foreach ($page->counters as $counter)
+                <div class="col-sm-4 col-md-3">
+                    <div class="fun_text">
+                       <span class="counter-icon">
+                            <img src="{{ $counter->iconpath }}" alt="{{ $counter->text }}">
+                        </span>
+                        <span class="counter">{{ $counter->n }}</span>
+                        <h4>{{ $counter->text }}</h4>
+                    </div>
+                </div>
+                @endforeach
+            </div>
         </div>
         <!-- /Counter area -->
 
