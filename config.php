@@ -36,22 +36,22 @@ return [
         ],[
             'name' => 'Déclaration n°4',
             'date' => Carbon::parse('2020-03-21'),
-            'filepath' => '/assets/build/files/Déclaration_du_gouvernement-4.pdf',
+            'filepath' => '/assets/build/files/Declaration_du_gouvernement-4.pdf',
             'icon' => '/assets/build/img/icon/pdf.svg',
         ],[
             'name' => 'Déclaration n°3',
             'date' => Carbon::parse('2020-03-18'),
-            'filepath' => '/assets/build/files/Déclaration_du_gouvernement-3.pdf',
+            'filepath' => '/assets/build/files/Declaration_du_gouvernement-3.pdf',
             'icon' => '/assets/build/img/icon/pdf.svg',
         ],[
             'name' => 'Déclaration n°2',
             'date' => Carbon::parse('2020-03-16'),
-            'filepath' => '/assets/build/files/Déclaration_du_gouvernement-2.pdf',
+            'filepath' => '/assets/build/files/Declaration_du_gouvernement-2.pdf',
             'icon' => '/assets/build/img/icon/pdf.svg',
         ],[
             'name' => 'Déclaration n°1',
             'date' => Carbon::parse('2020-03-14'),
-            'filepath' => '/assets/build/files/Déclaration_du_gouvernement-1.pdf',
+            'filepath' => '/assets/build/files/Declaration_du_gouvernement-1.pdf',
             'icon' => '/assets/build/img/icon/pdf.svg',
         ],
     ],
