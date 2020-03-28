@@ -12,10 +12,11 @@
         <div class="row">
             <div class="all-prevention">
                 <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h4 class="text-center">À faire</h4>
                     <div class="prevention-inner left-prevention">
                         <div class="prevention-content">
                             @foreach ($page->preventions->do as $do)
-                            <div class="single-prevention">
+                            <div class="single-prevention do-prevention">
                                 <div class="pre-img">
                                     <img src="{{ $do->picto }}" alt="{{ $do->title }}">
                                 </div>
@@ -30,10 +31,11 @@
                 </div>
                  <!-- End Column area -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h4 class="text-center">À ne pas faire</h4>
                     <div class="prevention-inner right-prevention">
                         <div class="prevention-content">
                             @foreach ($page->preventions->dont as $dont)
-                            <div class="single-prevention">
+                            <div class="single-prevention dont-prevention">
                                 <div class="pre-img">
                                     <img src="{{ $dont->picto }}" alt="{{ $dont->title }}">
                                 </div>
