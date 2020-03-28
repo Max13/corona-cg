@@ -41,12 +41,24 @@
     <div class="footer-area-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-xs-2">
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+                <!-- Mobile -->
+                <div class="visible-xs-block">
+                    <div class="col-xs-12 text-center">
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons - CC BY NC SA" src="/assets/build/img/icon/cc-by-nc-sa.svg"></a>
+                    </div>
+
+                    <div class="col-xs-12 h-1"></div>
+
+                    <div class="col-xs-12 copyright text-center">
+                         2020 – <a href="#">Congo-Tech</a>
+                    </div>
                 </div>
 
-                <div class="col-xs-3 col-xs-offset-10 col-sm-offset-2 copyright text-center">
-                     2020 – <a href="#">Congo-Tech</a><p></p>
+                <!-- Desktop -->
+                <div class="hidden-xs col-xs-12">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons - CC BY NC SA" src="/assets/build/img/icon/cc-by-nc-sa.svg"></a>
+
+                    <span class="copyright"> 2020 – <a href="#">Congo-Tech</a></span>
                 </div>
             </div>
         </div>

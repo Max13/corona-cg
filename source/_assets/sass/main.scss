@@ -31,12 +31,20 @@
     }
 }
 
+.copyright:not(.text-center) {
+    margin-left: 1em;
+}
+
 .footer-area-bottom {
     background: #000 none repeat scroll 0 0;
 }
 
 .footer-1 {
     background: #000;
+}
+
+.h-1 {
+    height: 1em;
 }
 
 .how-to-area-2 .single-how {
