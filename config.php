@@ -17,7 +17,7 @@ return [
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
             'n' => 0,
-            'text' => 'Traités',
+            'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
