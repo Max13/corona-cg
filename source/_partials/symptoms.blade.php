@@ -13,7 +13,7 @@
                         <li>Forte fièvre (≥ 38°C)</li>
                         <li>Difficultés respiratoires</li>
                         <li>Toux sèche / Rhûme</li>
-                        <li>Maux de tête / Courbature</li>
+                        <li>Maux de tête / Courbatures</li>
                         <li>Maux de gorge / Diarrhées</li>
                     </ul>
 
