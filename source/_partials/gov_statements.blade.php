@@ -33,7 +33,7 @@
                             </div>
                             <div class="retail">
                                 <div class="category">
-                                     <span>{{ $statement->date }}</span>
+                                     <span>{{ $statement->date->formatLocalized('%A %d %B %Y') }}</span>
                                 </div>
                             </div>
                         </div>

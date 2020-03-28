@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Add fr_FR locales
+        run: sudo apt-get install language-pack-fr-base
+
       - name: Install composer dependencies
         run: composer install --no-dev --prefer-dist --no-progress --no-suggest
 

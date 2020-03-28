@@ -1,5 +1,6 @@
 <?php
 
+use Carbon\Carbon;
 use TightenCo\Jigsaw\Jigsaw;
 
 /** @var $container \Illuminate\Container\Container */
@@ -15,3 +16,7 @@ use TightenCo\Jigsaw\Jigsaw;
  *     // Your code here
  * });
  */
+
+date_default_timezone_set('Africa/Brazzaville');
+setlocale(LC_TIME, ['fr_FR.UTF-8', 'fr_FR']);
+Carbon::setLocale('fr');
