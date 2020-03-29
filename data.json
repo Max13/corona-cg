@@ -18,22 +18,22 @@
         {
             "name": "Déclaration n°4",
             "date": "2020-03-21",
-            "filepath": "/assets/build/files/Declaration_du_gouvernement-4.pdf"
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/Declaration_du_gouvernement-4.pdf"
         },
         {
             "name": "Déclaration n°3",
             "date": "2020-03-18",
-            "filepath": "/assets/build/files/Declaration_du_gouvernement-3.pdf"
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/Declaration_du_gouvernement-3.pdf"
         },
         {
             "name": "Déclaration n°2",
             "date": "2020-03-16",
-            "filepath": "/assets/build/files/Declaration_du_gouvernement-2.pdf"
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/Declaration_du_gouvernement-2.pdf"
         },
         {
             "name": "Déclaration n°1",
             "date": "2020-03-14",
-            "filepath": "/assets/build/files/Declaration_du_gouvernement-1.pdf"
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/Declaration_du_gouvernement-1.pdf"
         }
     ]
 }
