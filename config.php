@@ -29,6 +29,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°6',
+            'date' => Carbon::parse('2020-03-28'),
+            'filepath' => 'https://www.facebook.com/VoxCongo/videos/3535252119882262/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°5',
             'date' => Carbon::parse('2020-03-27'),
             'filepath' => 'https://www.facebook.com/VoxCongo/videos/687052672045469/',
