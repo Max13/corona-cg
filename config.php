@@ -115,6 +115,7 @@ return [
             'name' => 'Adnan',
             'avatar' => '/assets/build/img/team/adnan.jpg',
             'links' => [
+                'twitter' => 'https://twitter.com/_Max13',
                 'link' => 'https://adnan.rihan.cg/',
             ],
         ],[
