@@ -1,10 +1,15 @@
 {
     "counters": {
         "confirmed": 19,
-        "recovered": 0,
+        "recovered": 2,
         "deceased": 0
     },
     "statements": [
+        {
+            "name": "Déclaration n°7",
+            "date": "2020-03-29",
+            "filepath": "https://twitter.com/CongoNN/status/1244247971677470724"
+        },
         {
             "name": "Déclaration n°6",
             "date": "2020-03-28",
