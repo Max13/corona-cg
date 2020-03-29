@@ -16,7 +16,7 @@ return [
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 0,
+            'n' => 2,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -29,6 +29,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°7',
+            'date' => Carbon::parse('2020-03-29'),
+            'filepath' => 'https://twitter.com/CongoNN/status/1244247971677470724',
+            'icon' => '/assets/build/img/icon/twitter.svg',
+        ],[
             'name' => 'Déclaration n°6',
             'date' => Carbon::parse('2020-03-28'),
             'filepath' => 'https://www.facebook.com/VoxCongo/videos/3535252119882262/',
