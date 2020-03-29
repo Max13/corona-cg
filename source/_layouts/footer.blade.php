@@ -30,6 +30,11 @@
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="https://github.com/Max13/corona-cg" target="_blank">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
