@@ -1,0 +1,39 @@
+{
+    "counters": {
+        "confirmed": 19,
+        "recovered": 0,
+        "deceased": 0,
+    },
+    "statements": [
+        {
+            "name": "Déclaration n°6",
+            "date": "2020-03-28",
+            "filepath": "https://www.facebook.com/VoxCongo/videos/3535252119882262/",
+        },
+        {
+            "name": "Déclaration n°5",
+            "date": "2020-03-27",
+            "filepath": "https://www.facebook.com/VoxCongo/videos/687052672045469/",
+        },
+        {
+            "name": "Déclaration n°4",
+            "date": "2020-03-21",
+            "filepath": "/assets/build/files/Declaration_du_gouvernement-4.pdf",
+        },
+        {
+            "name": "Déclaration n°3",
+            "date": "2020-03-18",
+            "filepath": "/assets/build/files/Declaration_du_gouvernement-3.pdf",
+        },
+        {
+            "name": "Déclaration n°2",
+            "date": "2020-03-16",
+            "filepath": "/assets/build/files/Declaration_du_gouvernement-2.pdf",
+        },
+        {
+            "name": "Déclaration n°1",
+            "date": "2020-03-14",
+            "filepath": "/assets/build/files/Declaration_du_gouvernement-1.pdf",
+        }
+    ],
+}
