@@ -27,11 +27,11 @@ return [
     ],
 
     'locations' => [
-        'BZV' => [
+        'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
             'count' => 18,
         ],
-        'PNR' => [
+        'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
             'count' => 1,
         ],

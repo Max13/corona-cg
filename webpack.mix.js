@@ -14,6 +14,7 @@ mix.webpackConfig({
  mix.copyDirectory('source/_assets/files', mix.config.publicPath + '/files')
     .copyDirectory('source/_assets/fonts', mix.config.publicPath + '/fonts')
     .copyDirectory('source/_assets/img', mix.config.publicPath + '/img')
+    .copyDirectory('source/_assets/json', mix.config.publicPath + '/json')
     .styles([
         'source/_assets/css/bootstrap.min.css',
         'source/_assets/css/owl.carousel.css',
@@ -26,6 +27,7 @@ mix.webpackConfig({
         'source/_assets/css/magnific.min.css',
         'source/_assets/css/nishflu.css',
         'source/_assets/css/responsive.css',
+        'source/_assets/css/leaflet-1.6.0.css',
     ], mix.config.publicPath + '/css/vendor.css')
     .sass('source/_assets/sass/main.scss', 'css')
     .scripts([
@@ -41,6 +43,7 @@ mix.webpackConfig({
         'source/_assets/js/form-validator.min.js',
         'source/_assets/js/plugins.js',
         'source/_assets/js/nishflu.js',
+        'source/_assets/js/leaflet-1.6.0.js',
     ], mix.config.publicPath + '/js/vendor.js')
     .js('source/_assets/js/modernizr-2.8.3.min.js', 'js')
     .js('source/_assets/js/main.js', 'js')

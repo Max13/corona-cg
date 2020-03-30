@@ -55,6 +55,16 @@
     background: #000;
 }
 
+.leaflet-popup.text-center {
+    .leaflet-popup-content {
+        text-align: center;
+    }
+}
+
+.leaflet-top, .leaflet-bottom {
+    z-index: 400;
+}
+
 .product-content {
     background: #000;
 }
@@ -185,6 +195,11 @@
     h1, h2, h3, h4, h5, h6, p {
         color: #fff;
     }
+}
+
+#casesMap {
+    height: 455px;
+    width: 100%;
 }
 
 header {
