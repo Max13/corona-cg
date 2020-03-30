@@ -4,11 +4,15 @@
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <div class="about-text left-text">
+                    <span class="color-head">Êtat d'urgence sanitaire</span>
+
                     <h3>Mesures prises par le gouvernement</h3>
 
                     <p>Dans le but de réduire les risques d'infection et de propagation de la Covid-19 à travers le pays, les autorités congolaises ont adopté une série de mesures dont les principales sont:</p>
 
                     <ul>
+                        <li>Confinement à domicile (à partir de Mercredi 00h)</li>
+                        <li>Couvre-feu de 20h à 5h (à partir de Mercredi 00h)</li>
                         <li>Fermeture de toutes les frontières</li>
                         <li>Fermeture des écoles et universités</li>
                         <li>Limitation des passagers des bus et taxis</li>
