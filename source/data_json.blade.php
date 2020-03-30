@@ -8,6 +8,15 @@ permalink: data.json
         "{{ $key }}": {{ $counter->n }}{{ $loop->last ? null : ','  }}
 @endforeach
     },
+    "locations": [
+@foreach ($page->locations as $city => $data)
+        {
+            "city": "{{ $city }}",
+            "coordinates": {{ $data->coordinates }},
+            "count": {{ $data->count }}
+        }{{ $loop->last ? null : ',' }}
+@endforeach
+    ],
     "statements": [
 @foreach ($page->official_statements as $statement)
         {

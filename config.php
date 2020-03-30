@@ -26,6 +26,17 @@ return [
         ],
     ],
 
+    'locations' => [
+        'BZV' => [
+            'coordinates' => [-4.27024, 15.27065],
+            'count' => 18,
+        ],
+        'PNR' => [
+            'coordinates' => [-4.79884, 11.85013],
+            'count' => 1,
+        ],
+    ],
+
     // Keep order
     'official_statements' => [
         [
