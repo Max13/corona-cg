@@ -30,10 +30,77 @@ return [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
             'count' => 18,
+            'recovered' => 2,
         ],
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
             'count' => 1,
+            'recovered' => 0,
+        ],
+        'Dolisie' => [
+            'coordinates' => [-4.20077, 12.63586],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Nkayi' => [
+            'coordinates' => [-4.1822, 13.26711],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Louandjili' => [
+            'coordinates' => [-4.76706, 11.8547],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Ouésso' => [
+            'coordinates' => [1.61413, 16.03257],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Madingou' => [
+            'coordinates' => [-4.16624, 13.53619],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Owando' => [
+            'coordinates' => [-0.49474, 15.86949],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Gamboma' => [
+            'coordinates' => [-2.08333, 14.66578],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Impfondo' => [
+            'coordinates' => [1.60416, 18.01517],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Sibiti' => [
+            'coordinates' => [-3.68307, 13.33208],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Mossendjo' => [
+            'coordinates' => [-2.96327, 12.72064],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Kinkala' => [
+            'coordinates' => [-4.35908, 14.75389],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Makoua' => [
+            'coordinates' => [-0.00631, 15.57827],
+            'count' => 0,
+            'recovered' => 0,
+        ],
+        'Oyo' => [
+            'coordinates' => [-1.1576484, 15.9596584],
+            'count' => 0,
+            'recovered' => 0,
         ],
     ],
 

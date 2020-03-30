@@ -13,7 +13,8 @@ permalink: data.json
         {
             "city": "{{ $city }}",
             "coordinates": {{ $data->coordinates }},
-            "count": {{ $data->count }}
+            "count": {{ $data->count }},
+            "recovered": {{ $data->recovered }}
         }{{ $loop->last ? null : ',' }}
 @endforeach
     ],
