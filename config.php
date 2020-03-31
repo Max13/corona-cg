@@ -11,7 +11,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 19,
+            'n' => 22,
             'text' => 'Confirmés',
         ],
         'recovered' => [
@@ -21,7 +21,7 @@ return [
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 0,
+            'n' => 2,
             'text' => 'Décès',
         ],
     ],
@@ -29,12 +29,12 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 18,
+            'count' => 14,
             'recovered' => 2,
         ],
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 1,
+            'count' => 8,
             'recovered' => 0,
         ],
         'Dolisie' => [
@@ -106,7 +106,12 @@ return [
 
     // Keep order
     'official_statements' => [
-        [
+       [
+            'name' => 'Déclaration n°8',
+            'date' => Carbon::parse('2020-03-31'),
+            'filepath' => 'http://www.adiac-congo.com/content/pandemie-le-congo-enregistre-ses-deux-premiers-deces-dus-au-coivd-19-114957#node-114957',
+            'icon' => '/assets/build/img/icon/news.svg',
+        ],[
             'name' => 'Déclaration n°7',
             'date' => Carbon::parse('2020-03-29'),
             'filepath' => 'https://twitter.com/CongoNN/status/1244247971677470724',
