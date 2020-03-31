@@ -1,22 +1,107 @@
 {
     "counters": {
-        "confirmed": 19,
+        "confirmed": 22,
         "recovered": 2,
-        "deceased": 0
+        "deceased": 2
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 18
+            "count": 14,
+            "recovered": 2
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 1
+            "count": 8,
+            "recovered": 0
+        },
+        {
+            "city": "Dolisie",
+            "coordinates": [-4.20077,12.63586],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Nkayi",
+            "coordinates": [-4.1822,13.26711],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Louandjili",
+            "coordinates": [-4.76706,11.8547],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Ouésso",
+            "coordinates": [1.61413,16.03257],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Madingou",
+            "coordinates": [-4.16624,13.53619],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Owando",
+            "coordinates": [-0.49474,15.86949],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Gamboma",
+            "coordinates": [-2.08333,14.66578],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Impfondo",
+            "coordinates": [1.60416,18.01517],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Sibiti",
+            "coordinates": [-3.68307,13.33208],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Mossendjo",
+            "coordinates": [-2.96327,12.72064],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Kinkala",
+            "coordinates": [-4.35908,14.75389],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Makoua",
+            "coordinates": [-0.00631,15.57827],
+            "count": 0,
+            "recovered": 0
+        },
+        {
+            "city": "Oyo",
+            "coordinates": [-1.1576484,15.9596584],
+            "count": 0,
+            "recovered": 0
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°8",
+            "date": "2020-03-31",
+            "filepath": "http://www.adiac-congo.com/content/pandemie-le-congo-enregistre-ses-deux-premiers-deces-dus-au-coivd-19-114957#node-114957"
+        },
         {
             "name": "Déclaration n°7",
             "date": "2020-03-29",
