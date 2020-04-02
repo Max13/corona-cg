@@ -11,12 +11,11 @@
                     <p>Dans le but de réduire les risques d'infection et de propagation de la Covid-19 à travers le pays, les autorités congolaises ont adopté une série de mesures dont les principales sont:</p>
 
                     <ul>
-                        <li>Confinement à domicile (à partir de Mercredi 00h)</li>
-                        <li>Couvre-feu de 20h à 5h (à partir de Mercredi 00h)</li>
+                        <li>Confinement à domicile</li>
+                        <li>Couvre-feu de 20h à 5h</li>
+                        <li>Circulation soumise à autorisation à récuperer au commissariat</li>
                         <li>Fermeture de toutes les frontières</li>
                         <li>Fermeture des écoles et universités</li>
-                        <li>Limitation des passagers des bus et taxis</li>
-                        <li>Restriction sur les rassemblements</li>
                         <li>Fermeture des lieux de culte et de loisir</li>
                     </ul>
                 </div>
