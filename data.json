@@ -1,20 +1,20 @@
 {
     "counters": {
-        "confirmed": 22,
+        "confirmed": 4.16624,
         "recovered": 2,
-        "deceased": 2
+        "deceased": 3
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 14,
+            "count": 28,
             "recovered": 2
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 8,
+            "count": 13,
             "recovered": 0
         },
         {
