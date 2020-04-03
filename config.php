@@ -107,6 +107,11 @@ return [
     // Keep order
     'official_statements' => [
        [
+            'name' => 'Déclaration n°9',
+            'date' => Carbon::parse('2020-04-02'),
+            'filepath' => 'https://www.facebook.com/676971998983464/posts/4130740636939899/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°8',
             'date' => Carbon::parse('2020-03-31'),
             'filepath' => 'http://www.adiac-congo.com/content/pandemie-le-congo-enregistre-ses-deux-premiers-deces-dus-au-coivd-19-114957#node-114957',
