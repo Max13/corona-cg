@@ -11,7 +11,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 41,
+            'n' => 45,
             'text' => 'Confirmés',
         ],
         'recovered' => [
@@ -21,7 +21,7 @@ return [
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 3,
+            'n' => 5,
             'text' => 'Décès',
         ],
     ],
@@ -29,7 +29,7 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 28,
+            'count' => 32,
             'recovered' => 2,
         ],
         'Pointe-Noire' => [
@@ -106,7 +106,12 @@ return [
 
     // Keep order
     'official_statements' => [
-       [
+        [
+            'name' => 'Déclaration n°10',
+            'date' => Carbon::parse('2020-04-04'),
+            'filepath' => 'https://www.facebook.com/VoxCongo/videos/209670493625504/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°9',
             'date' => Carbon::parse('2020-04-02'),
             'filepath' => 'https://www.facebook.com/676971998983464/posts/4130740636939899/',
