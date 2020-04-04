@@ -1,14 +1,14 @@
 {
     "counters": {
-        "confirmed": 41,
-        "recovered": 2,
-        "deceased": 3
+        "confirmed": 45,
+        "recovered": 3,
+        "deceased": 5
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 28,
+            "count": 32,
             "recovered": 2
         },
         {
@@ -97,6 +97,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°10",
+            "date": "2020-04-04",
+            "filepath": "https://www.facebook.com/VoxCongo/videos/209670493625504/"
+        },
         {
             "name": "Déclaration n°9",
             "date": "2020-04-02",
