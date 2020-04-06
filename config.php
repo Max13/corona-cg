@@ -11,7 +11,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 45,
+            'n' => 49,
             'text' => 'Confirmés',
         ],
         'recovered' => [
@@ -29,7 +29,7 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 32,
+            'count' => 36,
             'recovered' => 2,
         ],
         'Pointe-Noire' => [
