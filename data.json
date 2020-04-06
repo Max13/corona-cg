@@ -1,14 +1,14 @@
 {
     "counters": {
         "confirmed": 45,
-        "recovered": 3,
+        "recovered": 2,
         "deceased": 5
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 32,
+            "count": 36,
             "recovered": 2
         },
         {
