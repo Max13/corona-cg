@@ -9,13 +9,13 @@
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
             "count": 57,
-            "recovered": 5
+            "recovered": 3
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
             "count": 13,
-            "recovered": 0
+            "recovered": 2
         },
         {
             "city": "Dolisie",
