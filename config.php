@@ -11,12 +11,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 60,
+            'n' => 74,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 5,
+            'n' => 10,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -29,13 +29,13 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 42,
-            'recovered' => 5,
+            'count' => 59,
+            'recovered' => 8,
         ],
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 18,
-            'recovered' => 0,
+            'count' => 13,
+            'recovered' => 2,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -89,7 +89,7 @@ return [
         ],
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
-            'count' => 0,
+            'count' => 2,
             'recovered' => 0,
         ],
         'Makoua' => [
