@@ -1,20 +1,20 @@
 {
     "counters": {
-        "confirmed": 74,
-        "recovered": 10,
+        "confirmed": 117,
+        "recovered": 11,
         "deceased": 5
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 59,
+            "count": 71,
             "recovered": 8
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 13,
+            "count": 42,
             "recovered": 2
         },
         {
@@ -30,15 +30,9 @@
             "recovered": 0
         },
         {
-            "city": "Louandjili",
-            "coordinates": [-4.76706,11.8547],
-            "count": 0,
-            "recovered": 0
-        },
-        {
             "city": "Ouésso",
             "coordinates": [1.61413,16.03257],
-            "count": 0,
+            "count": 1,
             "recovered": 0
         },
         {
@@ -92,11 +86,16 @@
         {
             "city": "Oyo",
             "coordinates": [-1.1576484,15.9596584],
-            "count": 0,
+            "count": 1,
             "recovered": 0
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°12",
+            "date": "2020-04-14",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-18-COVID-19-CONGO-14-04-2020.pdf"
+        },
         {
             "name": "Déclaration n°11",
             "date": "2020-04-07",
