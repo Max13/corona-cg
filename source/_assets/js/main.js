@@ -55,18 +55,33 @@
 
         data.locations.forEach(loc => {
             // Confirmed
-            locations.push({
-                coordinates: loc.coordinates,
-                count: loc.count,
-                options: {
-                    color: loc.count ? 'crimson' : 'blue',
-                    fillColor: loc.count ? 'crimson' : 'blue',
-                    fillOpacity: 0.5,
-                    radius: loc.count ? Math.max(loc.count, 5) * 800 : 5000,
-                    weight: 2,
-                },
-                popupText: `<span class="text-center"><b>${loc.city}</b><br>${loc.count} cas</span>`,
-            });
+            if (loc.count) {
+                locations.push({
+                    coordinates: loc.coordinates,
+                    count: loc.count,
+                    options: {
+                        color: 'crimson',
+                        fillColor: 'crimson',
+                        fillOpacity: 0.5,
+                        radius: Math.max(loc.count, 10) * 800,
+                        weight: 2,
+                    },
+                    popupText: `<span class="text-center"><b>${loc.city}</b><br>${loc.count} cas</span>`,
+                });
+            } else {
+                locations.push({
+                    coordinates: loc.coordinates,
+                    count: loc.count,
+                    options: {
+                        color: 'blue',
+                        fillColor: 'blue',
+                        fillOpacity: 0.5,
+                        radius: 5000,
+                        weight: 2,
+                    },
+                    popupText: `<span class="text-center"><b>${loc.city}</b><br>épargné</span>`,
+                });
+            }
 
             // Recovered
             if (loc.recovered) {
@@ -77,7 +92,7 @@
                         color: 'lime',
                         fillColor: 'lime',
                         fillOpacity: 0.5,
-                        radius: Math.max(loc.recovered, 5) * 1200,
+                        radius: Math.max(loc.recovered, 10) * 800,
                         weight: 2,
                     },
                     popupText: `<span class="text-center"><b>${loc.city}</b><br>${loc.recovered} guéris</span>`,

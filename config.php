@@ -11,12 +11,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 74,
+            'n' => 117,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 10,
+            'n' => 11,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -29,12 +29,12 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 59,
+            'count' => 71,
             'recovered' => 8,
         ],
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 13,
+            'count' => 42,
             'recovered' => 2,
         ],
         'Dolisie' => [
@@ -47,14 +47,15 @@ return [
             'count' => 0,
             'recovered' => 0,
         ],
-        'Louandjili' => [
-            'coordinates' => [-4.76706, 11.8547],
-            'count' => 0,
-            'recovered' => 0,
-        ],
+        // Removed because it hides PNR
+        // 'Louandjili' => [
+        //     'coordinates' => [-4.76706, 11.8547],
+        //     'count' => 0,
+        //     'recovered' => 0,
+        // ],
         'Ouésso' => [
             'coordinates' => [1.61413, 16.03257],
-            'count' => 0,
+            'count' => 1,
             'recovered' => 0,
         ],
         'Madingou' => [
@@ -99,7 +100,7 @@ return [
         ],
         'Oyo' => [
             'coordinates' => [-1.1576484, 15.9596584],
-            'count' => 0,
+            'count' => 1,
             'recovered' => 0,
         ],
     ],
@@ -107,6 +108,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°12',
+            'date' => Carbon::parse('2020-04-14'),
+            'filepath' => '/assets/build/files/SITREP-N-18-COVID-19-CONGO-14-04-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°11',
             'date' => Carbon::parse('2020-04-07'),
             'filepath' => 'https://www.facebook.com/VoxCongo/videos/213574836404223/',
