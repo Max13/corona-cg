@@ -1,6 +1,6 @@
 {
     "counters": {
-        "confirmed": 117,
+        "confirmed": 143,
         "recovered": 11,
         "deceased": 5
     },
@@ -8,13 +8,13 @@
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 71,
+            "count": 98,
             "recovered": 8
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 42,
+            "count": 41,
             "recovered": 2
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°13",
+            "date": "2020-04-17",
+            "filepath": "https://www.facebook.com/VoxCongo/videos/232849277955029/"
+        },
         {
             "name": "Déclaration n°12",
             "date": "2020-04-14",
