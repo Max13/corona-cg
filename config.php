@@ -11,7 +11,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 117,
+            'n' => 143,
             'text' => 'Confirmés',
         ],
         'recovered' => [
@@ -29,12 +29,12 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 71,
+            'count' => 98,
             'recovered' => 8,
         ],
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 42,
+            'count' => 41,
             'recovered' => 2,
         ],
         'Dolisie' => [
@@ -108,6 +108,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°13',
+            'date' => Carbon::parse('2020-04-17'),
+            'filepath' => 'https://www.facebook.com/VoxCongo/videos/232849277955029/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°12',
             'date' => Carbon::parse('2020-04-14'),
             'filepath' => '/assets/build/files/SITREP-N-18-COVID-19-CONGO-14-04-2020.pdf',
