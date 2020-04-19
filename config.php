@@ -11,12 +11,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 143,
+            'n' => 160,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 11,
+            'n' => 16,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -26,15 +26,16 @@ return [
         ],
     ],
 
+    // TODO: 5 recovered, added in BZV because location unknown
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 98,
-            'recovered' => 8,
+            'count' => 107,
+            'recovered' => 13,
         ],
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 41,
+            'count' => 49,
             'recovered' => 2,
         ],
         'Dolisie' => [
@@ -108,6 +109,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°14',
+            'date' => Carbon::parse('2020-04-19'),
+            'filepath' => 'https://www.facebook.com/636601070057194/posts/1094136447636985/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°13',
             'date' => Carbon::parse('2020-04-17'),
             'filepath' => 'https://www.facebook.com/VoxCongo/videos/232849277955029/',
