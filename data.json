@@ -1,20 +1,20 @@
 {
     "counters": {
-        "confirmed": 160,
+        "confirmed": 165,
         "recovered": 16,
-        "deceased": 5
+        "deceased": 6
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 107,
+            "count": 108,
             "recovered": 13
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 49,
+            "count": 53,
             "recovered": 2
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°15",
+            "date": "2020-04-21",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-23-COVID-19-CONGO-21-04-2020.pdf"
+        },
         {
             "name": "Déclaration n°14",
             "date": "2020-04-19",
