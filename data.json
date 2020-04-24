@@ -1,7 +1,7 @@
 {
     "counters": {
-        "confirmed": 165,
-        "recovered": 16,
+        "confirmed": 200,
+        "recovered": 19,
         "deceased": 6
     },
     "locations": [
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°16",
+            "date": "2020-04-24",
+            "filepath": "https://www.facebook.com/VoxCongo/videos/915439685593480/"
+        },
         {
             "name": "Déclaration n°15",
             "date": "2020-04-21",
