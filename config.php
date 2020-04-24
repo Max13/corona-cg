@@ -11,12 +11,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 165,
+            'n' => 200,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 16,
+            'n' => 19,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -26,7 +26,8 @@ return [
         ],
     ],
 
-    // TODO: 5 recovered, added in BZV because location unknown
+    // TODO: 35 confirmed, location unknown
+    // TODO: 4 recovered, location unknown
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
@@ -109,6 +110,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°16',
+            'date' => Carbon::parse('2020-04-24'),
+            'filepath' => 'https://www.facebook.com/VoxCongo/videos/915439685593480/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°15',
             'date' => Carbon::parse('2020-04-21'),
             'filepath' => '/assets/build/files/SITREP-N-23-COVID-19-CONGO-21-04-2020.pdf',
