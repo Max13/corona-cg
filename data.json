@@ -1,20 +1,20 @@
 {
     "counters": {
-        "confirmed": 200,
+        "confirmed": 207,
         "recovered": 19,
-        "deceased": 6
+        "deceased": 8
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 108,
+            "count": 141,
             "recovered": 13
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 53,
+            "count": 60,
             "recovered": 2
         },
         {
@@ -74,7 +74,7 @@
         {
             "city": "Kinkala",
             "coordinates": [-4.35908,14.75389],
-            "count": 2,
+            "count": 4,
             "recovered": 0
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°17",
+            "date": "2020-04-27",
+            "filepath": "https://www.facebook.com/636601070057194/videos/232809704600188/"
+        },
         {
             "name": "Déclaration n°16",
             "date": "2020-04-24",
