@@ -1,20 +1,20 @@
 {
     "counters": {
-        "confirmed": 207,
-        "recovered": 19,
+        "confirmed": 229,
+        "recovered": 25,
         "deceased": 8
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 141,
+            "count": 145,
             "recovered": 13
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 60,
+            "count": 78,
             "recovered": 2
         },
         {
@@ -44,7 +44,7 @@
         {
             "city": "Owando",
             "coordinates": [-0.49474,15.86949],
-            "count": 0,
+            "count": 1,
             "recovered": 0
         },
         {
@@ -86,11 +86,16 @@
         {
             "city": "Oyo",
             "coordinates": [-1.1576484,15.9596584],
-            "count": 1,
+            "count": 0,
             "recovered": 0
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°18",
+            "date": "2020-05-01",
+            "filepath": "https://www.facebook.com/636601070057194/videos/271612040545522/"
+        },
         {
             "name": "Déclaration n°17",
             "date": "2020-04-27",
