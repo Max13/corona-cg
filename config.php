@@ -11,31 +11,32 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 207,
+            'n' => 229,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 19,
+            'n' => 25,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 8,
+            'n' => 9,
             'text' => 'Décès',
         ],
     ],
 
-    // TODO: 4 recovered, location unknown
+    // TODO: 10 recovered, location unknown
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 141,
+            'count' => 145,
             'recovered' => 13,
         ],
+        // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 60,
+            'count' => 78, // 75 + 3
             'recovered' => 2,
         ],
         'Dolisie' => [
@@ -54,6 +55,7 @@ return [
         //     'count' => 0,
         //     'recovered' => 0,
         // ],
+        // A.K.A: La Sangha
         'Ouésso' => [
             'coordinates' => [1.61413, 16.03257],
             'count' => 1,
@@ -64,9 +66,10 @@ return [
             'count' => 0,
             'recovered' => 0,
         ],
+        // A.K.A: La Cuvette
         'Owando' => [
             'coordinates' => [-0.49474, 15.86949],
-            'count' => 0,
+            'count' => 1,
             'recovered' => 0,
         ],
         'Gamboma' => [
@@ -89,6 +92,7 @@ return [
             'count' => 0,
             'recovered' => 0,
         ],
+        // A.K.A: Le Pool
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
             'count' => 4,
@@ -101,7 +105,7 @@ return [
         ],
         'Oyo' => [
             'coordinates' => [-1.1576484, 15.9596584],
-            'count' => 1,
+            'count' => 0,
             'recovered' => 0,
         ],
     ],
@@ -109,6 +113,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°18',
+            'date' => Carbon::parse('2020-05-01'),
+            'filepath' => 'https://www.facebook.com/636601070057194/videos/271612040545522/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°17',
             'date' => Carbon::parse('2020-04-27'),
             'filepath' => 'https://www.facebook.com/636601070057194/videos/232809704600188/',
