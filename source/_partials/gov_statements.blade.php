@@ -12,7 +12,7 @@
         <div class="row">
             <div class="features-item">
                 <!-- Start Product column Area -->
-                @foreach ($page->official_statements as $statement)
+                @foreach ($page->official_statements->take(4) as $statement)
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-product">
                         <div class="product-img">
