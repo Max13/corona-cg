@@ -11,17 +11,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 236,
+            'n' => 256,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 26,
+            'n' => 34,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 9,
+            'n' => 10,
             'text' => 'Décès',
         ],
     ],
@@ -30,13 +30,13 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 152,
+            'count' => 172,
             'recovered' => 13,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 78, // 75 + 3
+            'count' => 86,
             'recovered' => 2,
         ],
         'Dolisie' => [
@@ -113,6 +113,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°20',
+            'date' => Carbon::parse('2020-05-06'),
+            'filepath' => 'https://www.facebook.com/636601070057194/videos/3865777620160817',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°19',
             'date' => Carbon::parse('2020-05-04'),
             'filepath' => 'https://www.facebook.com/636601070057194/videos/239433434064562/',
