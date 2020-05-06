@@ -11,12 +11,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 229,
+            'n' => 236,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 25,
+            'n' => 26,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -30,7 +30,7 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 145,
+            'count' => 152,
             'recovered' => 13,
         ],
         // + Kouilou
@@ -113,6 +113,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°19',
+            'date' => Carbon::parse('2020-05-04'),
+            'filepath' => 'https://www.facebook.com/636601070057194/videos/239433434064562/',
+            'icon' => '/assets/build/img/icon/play.svg',
+        ],[
             'name' => 'Déclaration n°18',
             'date' => Carbon::parse('2020-05-01'),
             'filepath' => 'https://www.facebook.com/636601070057194/videos/271612040545522/',
