@@ -6,6 +6,8 @@ return [
     'production' => false,
     'baseUrl' => '',
     'collections' => [],
+    'description' => 'Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.',
+    'title' => 'Coronavirus (Covid-19) | Congo Tech',
 
     // Keep order
     'counters' => [

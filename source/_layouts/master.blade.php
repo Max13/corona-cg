@@ -5,9 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="author" content="Congo Tech <https://github.com/max13/corona-cg>">
-    <meta name="description" content="Site d'informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.">
+    <meta name="description" content="{{ $page->description }}">
     <meta name="language" content="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ $page->title }}">
+    <meta property="og:url" content="{{ $page->baseUrl }}">
+    <meta property="og:image" content="{{ $page->baseUrl }}/assets/build/img/logo/logo-icon-500px.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:alt" content="Logo">
+    <meta property="og:description" content="{{ $page->description }}">
+    <meta property="og:locale" content="fr_FR">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/build/img/favicon/apple-touch-icon.png">
@@ -29,7 +40,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
-    <title>Coronavirus (Covid-19) | Congo Tech</title>
+    <title>{{ $page->title }}</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162008017-1"></script>
