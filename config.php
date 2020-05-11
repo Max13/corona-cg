@@ -13,17 +13,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 256,
+            'n' => 333,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 34,
+            'n' => 53,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 10,
+            'n' => 11,
             'text' => 'Décès',
         ],
     ],
@@ -32,14 +32,14 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 172,
-            'recovered' => 13,
+            'count' => 221,
+            'recovered' => 30,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 86,
-            'recovered' => 2,
+            'count' => 106,
+            'recovered' => 20,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -72,7 +72,7 @@ return [
         'Owando' => [
             'coordinates' => [-0.49474, 15.86949],
             'count' => 1,
-            'recovered' => 0,
+            'recovered' => 1,
         ],
         'Gamboma' => [
             'coordinates' => [-2.08333, 14.66578],
@@ -98,7 +98,7 @@ return [
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
             'count' => 4,
-            'recovered' => 0,
+            'recovered' => 2,
         ],
         'Makoua' => [
             'coordinates' => [-0.00631, 15.57827],
@@ -115,6 +115,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°21',
+            'date' => Carbon::parse('2020-05-10'),
+            'filepath' => '/assets/build/files/SITREP-N-37-COVID-19-CONGO-10-05-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°20',
             'date' => Carbon::parse('2020-05-06'),
             'filepath' => 'https://www.facebook.com/636601070057194/videos/3865777620160817',
