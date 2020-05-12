@@ -5,6 +5,7 @@
 /vendor/
 /.idea/
 /.vscode/
+.env
 npm-debug.log
 sftp-config.json
 yarn-error.log

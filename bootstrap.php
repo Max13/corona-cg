@@ -1,7 +1,6 @@
 <?php
 
 use Carbon\Carbon;
-use TightenCo\Jigsaw\Jigsaw;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
@@ -20,3 +19,6 @@ use TightenCo\Jigsaw\Jigsaw;
 date_default_timezone_set('Africa/Brazzaville');
 setlocale(LC_TIME, ['fr_FR.UTF-8', 'fr_FR']);
 Carbon::setLocale('fr');
+
+$events->beforeBuild(App\Listeners\CheckFacebookPageCredentials::class);
+$events->afterBuild(App\Listeners\PostUpdateToFacebookPage::class);

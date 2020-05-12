@@ -9,6 +9,21 @@ return [
     'description' => 'Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.',
     'title' => 'Coronavirus (Covid-19) | Congo Tech',
 
+    'facebook' => [
+        'baseApi' => 'https://graph.facebook.com/v7.0',
+        'appId' => '844327956056886',
+        'pageId' => '113479550293166',
+        'permissions' => [
+            'pages_manage_posts',
+            'pages_read_engagement',
+        ],
+
+        'appSecret' => env('FACEBOOK_APP_SECRET'),
+        'clientToken' => env('FACEBOOK_CLIENT_TOKEN'),
+        'userToken' => env('FACEBOOK_USER_TOKEN'),
+        'pageToken' => env('FACEBOOK_PAGE_TOKEN'),
+    ],
+
     // Keep order
     'counters' => [
         'confirmed' => [
