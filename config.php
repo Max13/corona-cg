@@ -28,7 +28,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 333,
+            'n' => 341,
             'text' => 'Confirmés',
         ],
         'recovered' => [
@@ -43,11 +43,10 @@ return [
         ],
     ],
 
-    // TODO: 10 recovered, location unknown
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 221,
+            'count' => 228,
             'recovered' => 30,
         ],
         // + Kouilou
@@ -112,7 +111,7 @@ return [
         // A.K.A: Le Pool
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
-            'count' => 4,
+            'count' => 5,
             'recovered' => 2,
         ],
         'Makoua' => [
@@ -130,6 +129,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°22',
+            'date' => Carbon::parse('2020-05-12'),
+            'filepath' => '/assets/build/files/SITREP-N-38-COVID-19-CONGO-12-05-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°21',
             'date' => Carbon::parse('2020-05-10'),
             'filepath' => '/assets/build/files/SITREP-N-37-COVID-19-CONGO-10-05-2020.pdf',
