@@ -1,6 +1,6 @@
 {
     "counters": {
-        "confirmed": 333,
+        "confirmed": 341,
         "recovered": 53,
         "deceased": 11
     },
@@ -8,7 +8,7 @@
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 221,
+            "count": 228,
             "recovered": 30
         },
         {
@@ -74,7 +74,7 @@
         {
             "city": "Kinkala",
             "coordinates": [-4.35908,14.75389],
-            "count": 4,
+            "count": 5,
             "recovered": 2
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°22",
+            "date": "2020-05-12",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-38-COVID-19-CONGO-12-05-2020.pdf"
+        },
         {
             "name": "Déclaration n°21",
             "date": "2020-05-10",
