@@ -43,12 +43,9 @@ return [
         ],
     ],
 
-    'unknown_location' => [
-            'coordinates' => [-4.27024, 15.27065],
-            'count' => 71,
-            'recovered' => 53,
-        ],
-
+    // +71 confirmed, location unknown
+    // +53 recovered
+    // +4  deceased
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
