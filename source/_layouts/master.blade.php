@@ -9,6 +9,10 @@
     <meta name="language" content="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@StopCovid19CG" />
+    <meta name="twitter:creator" content="@StopCovid19CG" />
+
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ $page->title }}">
     <meta property="og:url" content="{{ $page->baseUrl }}">
