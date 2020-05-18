@@ -130,7 +130,12 @@ return [
     ],
 
     // Keep order
-    'official_statements' => [
+    'official_statements' => [[
+            'name' => 'Déclaration n°23',
+            'date' => Carbon::parse('2020-05-16'),
+            'filepath' => 'https://twitter.com/voxcongo/status/1261605748523573248',
+            'icon' => '/assets/build/img/icon/twitter.svg',
+        ],
         [
             'name' => 'Déclaration n°22',
             'date' => Carbon::parse('2020-05-12'),
