@@ -44,6 +44,13 @@ return [
     ],
 
     'locations' => [
+
+
+        'Unknown' => [
+            'coordinates' => [-4.27024, 15.27065],
+            'count' => 71,
+            'recovered' => 53,
+        ],
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
             'count' => 228,
