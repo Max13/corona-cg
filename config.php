@@ -28,21 +28,24 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 341,
+            'n' => 412,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 53,
+            'n' => 110,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 11,
+            'n' => 15,
             'text' => 'Décès',
         ],
     ],
 
+    // +71 confirmed, location unknown
+    // +53 recovered
+    // +4  deceased
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
@@ -128,6 +131,11 @@ return [
 
     // Keep order
     'official_statements' => [
+            'name' => 'Déclaration n°23',
+            'date' => Carbon::parse('2020-05-16'),
+            'filepath' => 'https://twitter.com/voxcongo/status/1261605748523573248',
+            'icon' => '/assets/build/img/icon/twitter.svg',
+        ],
         [
             'name' => 'Déclaration n°22',
             'date' => Carbon::parse('2020-05-12'),
