@@ -8,6 +8,7 @@ return [
     'collections' => [],
     'description' => 'Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.',
     'title' => 'Coronavirus (Covid-19) | Congo Tech',
+    'author' => 'Congo Tech <https://github.com/max13/corona-cg>',
 
     'facebook' => [
         'baseApi' => 'https://graph.facebook.com/v7.0',
