@@ -17,7 +17,7 @@ class PostUpdateToFacebookPage
         $lastDate = $jigsaw->getConfig('official_statements.0.date')
                            ->formatLocalized('%d %B %Y');
         $message = sprintf(
-            "Dernier bilan du %s en République du Congo: %d cas confirmés, %d guéris et %d décès. Plus de détails sur %s. #ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG",
+            "Dernier bilan du %s en République du Congo 🇨🇬: %d cas confirmés, %d guéris et %d décès. Plus de détails sur %s. #ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG",
             $lastDate,
             $counters->confirmed->n,
             $counters->recovered->n,
