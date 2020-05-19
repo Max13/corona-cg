@@ -35,6 +35,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="/assets/build/img/favicon/favicon.ico">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="alternate" type="application/atom+xml" href="/feed.atom" title="{{ $page->title }} flux Atom">
+
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="{{ mix('css/vendor.css', 'assets/build') }}">
 

@@ -1,0 +1,21 @@
+<?php echo "<?xml version=\"1.0\"?>\n"; ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ $page->title }}</title>
+    <link href="{{ $page->baseUrl }}{{ $page->site_path }}" />
+    <link type="application/atom+xml" rel="self" href="{{ $page->getUrl() }}" />
+    <updated>{{ $page->now->toAtomString() }}</updated>
+    <id>{{ $page->getUrl() }}</id>
+    <author>
+        <name>{{ $page->author }}</name>
+    </author>
+    <entry>
+        <id>{{ $page->baseUrl }}/?{{ rawurlencode($page->official_statements->first()->name) }}</id>
+        <title>{{ $page->official_statements->first()->name }}</title>
+        <published>{{ $page->official_statements->first()->date->toAtomString() }}</published>
+        <updated>{{ $page->now->toAtomString() }}</updated>
+        <link rel="alternate" type="text/html" href="{{ $page->baseUrl }}"/>
+        <content type="html"><![CDATA[
+            Dernier bilan du {{ $page->official_statements->first()->date->formatLocalized('%d %B %Y') }} en République du Congo 🇨🇬: {{ $page->counters->confirmed->n }} cas confirmés, {{ $page->counters->recovered->n }} guéris et {{ $page->counters->deceased->n }} décès.<br><br>Plus de détails sur {{ $page->baseUrl }}.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
+        ]]></content>
+    </entry>
+</feed>
