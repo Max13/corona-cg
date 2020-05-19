@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Coronavirus (Covid-19) | Congo Tech</title>
+        <link>https://coronavirus.tech.cg</link>
+        <atom:link href="https://coronavirus.tech.cg/feed.rss" rel="self" type="application/rss+xml" />
+        <description>Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.</description>
+        <language>fr-fr</language>
+        <pubDate>Mon, 18 May 2020 13:42:37 +0100</pubDate>
+        <lastBuildDate>Mon, 18 May 2020 13:42:37 +0100</lastBuildDate>
+        <item>
+            <title>Déclaration n°24</title>
+            <guid>https://coronavirus.tech.cg/?D%C3%A9claration+n%C2%B024</guid>
+            <pubDate>Sun, 17 May 2020 00:00:00 +0100</pubDate>
+            <description>Dernier bilan du 17 mai 2020 en République du Congo 🇨🇬: 414 cas confirmés, 112 guéris et 15 décès.&lt;br&gt;&lt;br&gt;Plus de détails sur https://coronavirus.tech.cg.&lt;br&gt;&lt;br&gt;#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG</description>
+        </item>
+    </channel>
+</rss>
