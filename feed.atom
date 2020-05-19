@@ -3,13 +3,13 @@
     <title>Coronavirus (Covid-19) | Congo Tech</title>
     <link href="https://coronavirus.tech.cg" />
     <link type="application/atom+xml" rel="self" href="https://coronavirus.tech.cg/feed.atom" />
-    <updated>2020-05-18T12:42:35+01:00</updated>
+    <updated>2020-05-18T12:45:26+01:00</updated>
     <id>https://coronavirus.tech.cg/feed.atom</id>
     <author>
         <name>Congo Tech &lt;https://github.com/max13/corona-cg&gt;</name>
     </author>
     <entry>
-        <id>https://coronavirus.tech.cg/?D%C3%A9claration+n%C2%B024</id>
+        <id>https://coronavirus.tech.cg/?D%C3%A9claration%20n%C2%B024</id>
         <title>Déclaration n°24</title>
         <published>2020-05-17T00:00:00+01:00</published>
         <updated>2020-05-16T00:00:00+01:00</updated>
