@@ -28,12 +28,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 412,
+            'n' => 414,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 110,
+            'n' => 112,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -43,20 +43,17 @@ return [
         ],
     ],
 
-    // +71 confirmed, location unknown
-    // +53 recovered
-    // +4  deceased
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 228,
-            'recovered' => 30,
+            'count' => 254,
+            'recovered' => 79,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 106,
-            'recovered' => 20,
+            'count' => 153,
+            'recovered' => 30,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -132,6 +129,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°24',
+            'date' => Carbon::parse('2020-05-18'),
+            'filepath' => '/assets/build/files/SITREP-N-40-COVID-19-CONGO-18-05-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°23',
             'date' => Carbon::parse('2020-05-16'),
             'filepath' => 'https://twitter.com/voxcongo/status/1261605748523573248',
