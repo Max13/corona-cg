@@ -21,16 +21,10 @@ jobs:
 
       - name: Set secrets in .env
         env:
-          FACEBOOK_APP_SECRET: ${{ secrets.FACEBOOK_APP_SECRET }}
-          FACEBOOK_CLIENT_TOKEN: ${{ secrets.FACEBOOK_CLIENT_TOKEN }}
-          FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
-          FACEBOOK_USER_TOKEN: ${{ secrets.FACEBOOK_USER_TOKEN }}
+          IFTTT_WEBHOOK_KEY: ${{ secrets.IFTTT_WEBHOOK_KEY }}
         run: |
           cat << EOF > .env
-          FACEBOOK_APP_SECRET=$FACEBOOK_APP_SECRET
-          FACEBOOK_CLIENT_TOKEN=$FACEBOOK_CLIENT_TOKEN
-          FACEBOOK_PAGE_TOKEN=$FACEBOOK_PAGE_TOKEN
-          FACEBOOK_USER_TOKEN=$FACEBOOK_USER_TOKEN
+          IFTTT_WEBHOOK_KEY=$IFTTT_WEBHOOK_KEY
           EOF
 
       - name: Build website
@@ -44,3 +38,6 @@ jobs:
           publish_dir: ./build_production
           user_name: 'corona[bot]'
           user_email: 'corona[bot]@users.noreply.github.com'
+
+      - name: Re-build jigsaw-only to process internal events
+        run: ./vendor/bin/jigsaw build production

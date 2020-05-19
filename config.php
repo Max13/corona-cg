@@ -4,27 +4,18 @@ use Carbon\Carbon;
 use Carbon\CarbonImmutable;
 
 return [
-    'production' => false,
     'baseUrl' => '',
+    'production' => false,
     'collections' => [],
     'description' => 'Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.',
     'title' => 'Coronavirus (Covid-19) | Congo Tech',
     'author' => 'Congo Tech <https://github.com/max13/corona-cg>',
     'now' => CarbonImmutable::now(),
 
-    'facebook' => [
-        'baseApi' => 'https://graph.facebook.com/v7.0',
-        'appId' => '844327956056886',
-        'pageId' => '113479550293166',
-        'permissions' => [
-            'pages_manage_posts',
-            'pages_read_engagement',
-        ],
-
-        'appSecret' => env('FACEBOOK_APP_SECRET'),
-        'clientToken' => env('FACEBOOK_CLIENT_TOKEN'),
-        'userToken' => env('FACEBOOK_USER_TOKEN'),
-        'pageToken' => env('FACEBOOK_PAGE_TOKEN'),
+    'ifttt' => [
+        'baseApi' => 'https://maker.ifttt.com/trigger/{event}/with/key/{key}',
+        'event' => 'coronacg_new_build',
+        'key' => env('IFTTT_WEBHOOK_KEY'),
     ],
 
     // Keep order

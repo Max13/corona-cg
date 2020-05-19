@@ -20,7 +20,4 @@ date_default_timezone_set('Africa/Brazzaville');
 setlocale(LC_TIME, ['fr_FR.UTF-8', 'fr_FR']);
 Carbon::setLocale('fr');
 
-if ($container->config['production']) {
-    $events->beforeBuild(App\Listeners\CheckFacebookPageCredentials::class);
-    $events->afterBuild(App\Listeners\PostUpdateToFacebookPage::class);
-}
+$events->afterBuild(App\Listeners\NotifyIFTTT::class);
