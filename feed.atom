@@ -3,7 +3,7 @@
     <title>Coronavirus (Covid-19) | Congo Tech</title>
     <link href="https://coronavirus.tech.cg" />
     <link type="application/atom+xml" rel="self" href="https://coronavirus.tech.cg/feed.atom" />
-    <updated>2020-05-18T13:02:49+01:00</updated>
+    <updated>2020-05-18T13:17:38+01:00</updated>
     <id>https://coronavirus.tech.cg/feed.atom</id>
     <author>
         <name>Congo Tech &lt;https://github.com/max13/corona-cg&gt;</name>
@@ -11,10 +11,11 @@
     <entry>
         <id>https://coronavirus.tech.cg/?D%C3%A9claration%20n%C2%B024</id>
         <title>Déclaration n°24</title>
-        <published>2020-05-16T00:00:00+01:00</published>
-        <updated>2020-05-15T00:00:00+01:00</updated>
+        <published>2020-05-17T00:00:00+01:00</published>
+        <updated>2020-05-16T00:00:00+01:00</updated>
+        <link rel="alternate" type="text/html" href="https://coronavirus.tech.cg"/>
         <content type="html"><![CDATA[
-            Dernier bilan du 15 mai 2020 en République du Congo 🇨🇬: 414 cas confirmés, 112 guéris et 15 décès.<br><br>Plus de détails sur https://coronavirus.tech.cg.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
+            Dernier bilan du 16 mai 2020 en République du Congo 🇨🇬: 414 cas confirmés, 112 guéris et 15 décès.<br><br>Plus de détails sur https://coronavirus.tech.cg.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
         ]]></content>
     </entry>
 </feed>
