@@ -1,0 +1,19 @@
+<?php echo "<?xml version=\"1.0\"?>\n"; ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>{{ $page->title }}</title>
+        <link>{{ $page->baseUrl }}{{ $page->site_path }}</link>
+        <atom:link href="{{ $page->getUrl() }}" rel="self" type="application/rss+xml" />
+        <description>{{ $page->description }}</description>
+        <language>fr-fr</language>
+        <pubDate>{{ $page->now->toRssString() }}</pubDate>
+        <lastBuildDate>{{ $page->now->toRssString() }}</lastBuildDate>
+        <item>
+            <title>{{ $page->official_statements->first()->name }}</title>
+            <guid>{{ $page->baseUrl }}/?{{ urlencode($page->official_statements->first()->name) }}</guid>
+            <pubDate>{{ $page->official_statements->first()->date->toRssString() }}</pubDate>
+            <link>{{ $page->baseUrl }}</link>
+            <description>Dernier bilan du {{ $page->official_statements->first()->date->formatLocalized('%d %B %Y') }} en République du Congo 🇨🇬: {{ $page->counters->confirmed->n }} cas confirmés, {{ $page->counters->recovered->n }} guéris et {{ $page->counters->deceased->n }} décès.&lt;br&gt;&lt;br&gt;Plus de détails sur {{ $page->baseUrl }}.&lt;br&gt;&lt;br&gt;#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG</description>
+        </item>
+    </channel>
+</rss>
