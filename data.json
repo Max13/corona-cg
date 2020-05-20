@@ -1,14 +1,14 @@
 {
     "counters": {
-        "confirmed": 414,
-        "recovered": 112,
+        "confirmed": 420,
+        "recovered": 132,
         "deceased": 15
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 254,
+            "count": 260,
             "recovered": 79
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°25",
+            "date": "2020-05-19",
+            "filepath": "https://www.facebook.com/636601070057194/videos/2915492978569043"
+        },
         {
             "name": "Déclaration n°24",
             "date": "2020-05-18",
