@@ -3,19 +3,19 @@
     <title>Coronavirus (Covid-19) | Congo Tech</title>
     <link href="https://coronavirus.tech.cg" />
     <link type="application/atom+xml" rel="self" href="https://coronavirus.tech.cg/feed.atom" />
-    <updated>2020-05-20T11:53:41+01:00</updated>
+    <updated>2020-05-25T17:08:36+01:00</updated>
     <id>https://coronavirus.tech.cg/feed.atom</id>
     <author>
         <name>Congo Tech &lt;https://github.com/max13/corona-cg&gt;</name>
     </author>
     <entry>
-        <id>https://coronavirus.tech.cg/?D%C3%A9claration%20n%C2%B025</id>
-        <title>Déclaration n°25</title>
-        <published>2020-05-19T00:00:00+01:00</published>
-        <updated>2020-05-20T11:53:41+01:00</updated>
+        <id>https://coronavirus.tech.cg/?D%C3%A9claration%20n%C2%B026</id>
+        <title>Déclaration n°26</title>
+        <published>2020-05-23T00:00:00+01:00</published>
+        <updated>2020-05-25T17:08:36+01:00</updated>
         <link rel="alternate" type="text/html" href="https://coronavirus.tech.cg"/>
         <content type="html"><![CDATA[
-            Dernier bilan du 19 mai 2020 en République du Congo 🇨🇬: 420 cas confirmés, 132 guéris et 15 décès.<br><br>Plus de détails sur https://coronavirus.tech.cg.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
+            Dernier bilan du 23 mai 2020 en République du Congo 🇨🇬: 531 cas confirmés, 155 guéris et 17 décès.<br><br>Plus de détails sur https://coronavirus.tech.cg.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
         ]]></content>
     </entry>
 </feed>

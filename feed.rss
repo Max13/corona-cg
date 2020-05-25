@@ -6,14 +6,14 @@
         <atom:link href="https://coronavirus.tech.cg/feed.rss" rel="self" type="application/rss+xml" />
         <description>Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.</description>
         <language>fr-fr</language>
-        <pubDate>Wed, 20 May 2020 11:53:41 +0100</pubDate>
-        <lastBuildDate>Wed, 20 May 2020 11:53:41 +0100</lastBuildDate>
+        <pubDate>Mon, 25 May 2020 17:08:36 +0100</pubDate>
+        <lastBuildDate>Mon, 25 May 2020 17:08:36 +0100</lastBuildDate>
         <item>
-            <title>Déclaration n°25</title>
-            <guid>https://coronavirus.tech.cg/?D%C3%A9claration+n%C2%B025</guid>
-            <pubDate>Tue, 19 May 2020 00:00:00 +0100</pubDate>
+            <title>Déclaration n°26</title>
+            <guid>https://coronavirus.tech.cg/?D%C3%A9claration+n%C2%B026</guid>
+            <pubDate>Sat, 23 May 2020 00:00:00 +0100</pubDate>
             <link>https://coronavirus.tech.cg</link>
-            <description>Dernier bilan du 19 mai 2020 en République du Congo 🇨🇬: 420 cas confirmés, 132 guéris et 15 décès.&lt;br&gt;&lt;br&gt;Plus de détails sur https://coronavirus.tech.cg.&lt;br&gt;&lt;br&gt;#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG</description>
+            <description>Dernier bilan du 23 mai 2020 en République du Congo 🇨🇬: 531 cas confirmés, 155 guéris et 17 décès.&lt;br&gt;&lt;br&gt;Plus de détails sur https://coronavirus.tech.cg.&lt;br&gt;&lt;br&gt;#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG</description>
         </item>
     </channel>
 </rss>
