@@ -22,33 +22,32 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 420,
+            'n' => 531,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 132,
+            'n' => 155,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 15,
+            'n' => 17,
             'text' => 'Décès',
         ],
     ],
 
-    // +20 recovered, location unknown
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 260,
-            'recovered' => 79,
+            'count' => 308,
+            'recovered' => 109,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 153,
-            'recovered' => 30,
+            'count' => 216,
+            'recovered' => 43,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -124,6 +123,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°26',
+            'date' => Carbon::parse('2020-05-23'),
+            'filepath' => '/assets/build/files/SITREP-N-45-COVID-19-CONGO-23-05-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°25',
             'date' => Carbon::parse('2020-05-19'),
             'filepath' => 'https://www.facebook.com/636601070057194/videos/2915492978569043',
