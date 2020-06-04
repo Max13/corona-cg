@@ -22,17 +22,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 531,
+            'n' => 611,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 155,
+            'n' => 179,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 17,
+            'n' => 20,
             'text' => 'Décès',
         ],
     ],
@@ -40,23 +40,24 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 308,
-            'recovered' => 109,
+            'count' => 327,
+            'recovered' => 115,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 216,
-            'recovered' => 43,
+            'count' => 268,
+            'recovered' => 41,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
             'count' => 0,
             'recovered' => 0,
         ],
+        // A.K.A: La Bouenza
         'Nkayi' => [
             'coordinates' => [-4.1822, 13.26711],
-            'count' => 0,
+            'count' => 3,
             'recovered' => 0,
         ],
         // Removed because it hides PNR
@@ -123,6 +124,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°27',
+            'date' => Carbon::parse('2020-05-31'),
+            'filepath' => 'https://www.facebook.com/636601070057194/photos/a.637290753321559/1126795411037755/',
+            'icon' => '/assets/build/img/icon/news.svg',
+        ],[
             'name' => 'Déclaration n°26',
             'date' => Carbon::parse('2020-05-23'),
             'filepath' => '/assets/build/files/SITREP-N-45-COVID-19-CONGO-23-05-2020.pdf',
