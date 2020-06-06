@@ -22,12 +22,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 611,
+            'n' => 635,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 179,
+            'n' => 182,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -37,6 +37,10 @@ return [
         ],
     ],
 
+    /**
+     * +24 confirmed, location unknown
+     * +03 recovered
+     */
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
@@ -124,6 +128,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°28',
+            'date' => Carbon::parse('2020-06-05'),
+            'filepath' => 'https://www.facebook.com/636601070057194/photos/a.637290753321559/1130759973974632/',
+            'icon' => '/assets/build/img/icon/news.svg',
+        ],[
             'name' => 'Déclaration n°27',
             'date' => Carbon::parse('2020-05-31'),
             'filepath' => 'https://www.facebook.com/636601070057194/photos/a.637290753321559/1126795411037755/',
