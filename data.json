@@ -1,7 +1,7 @@
 {
     "counters": {
-        "confirmed": 611,
-        "recovered": 179,
+        "confirmed": 635,
+        "recovered": 182,
         "deceased": 20
     },
     "locations": [
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°28",
+            "date": "2020-06-05",
+            "filepath": "https://www.facebook.com/636601070057194/photos/a.637290753321559/1130759973974632/"
+        },
         {
             "name": "Déclaration n°27",
             "date": "2020-05-31",
