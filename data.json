@@ -1,21 +1,21 @@
 {
     "counters": {
-        "confirmed": 635,
-        "recovered": 182,
-        "deceased": 20
+        "confirmed": 683,
+        "recovered": 210,
+        "deceased": 22
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 327,
-            "recovered": 115
+            "count": 364,
+            "recovered": 135
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 268,
-            "recovered": 41
+            "count": 305,
+            "recovered": 72
         },
         {
             "city": "Dolisie",
@@ -26,7 +26,7 @@
         {
             "city": "Nkayi",
             "coordinates": [-4.1822,13.26711],
-            "count": 3,
+            "count": 7,
             "recovered": 0
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°29",
+            "date": "2020-06-06",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-56-COVID-19-CONGO-06-06-2020.pdf"
+        },
         {
             "name": "Déclaration n°28",
             "date": "2020-06-05",
