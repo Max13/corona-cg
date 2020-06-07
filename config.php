@@ -22,36 +22,32 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 635,
+            'n' => 683,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 182,
+            'n' => 210,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 20,
+            'n' => 22,
             'text' => 'Décès',
         ],
     ],
 
-    /**
-     * +24 confirmed, location unknown
-     * +03 recovered
-     */
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 327,
-            'recovered' => 115,
+            'count' => 364,
+            'recovered' => 135,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 268,
-            'recovered' => 41,
+            'count' => 305,
+            'recovered' => 72,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -61,7 +57,7 @@ return [
         // A.K.A: La Bouenza
         'Nkayi' => [
             'coordinates' => [-4.1822, 13.26711],
-            'count' => 3,
+            'count' => 7,
             'recovered' => 0,
         ],
         // Removed because it hides PNR
@@ -128,6 +124,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°29',
+            'date' => Carbon::parse('2020-06-06'),
+            'filepath' => '/assets/build/files/SITREP-N-56-COVID-19-CONGO-06-06-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°28',
             'date' => Carbon::parse('2020-06-05'),
             'filepath' => 'https://www.facebook.com/636601070057194/photos/a.637290753321559/1130759973974632/',
