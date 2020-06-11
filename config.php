@@ -12,6 +12,21 @@ return [
     'author' => 'Congo Tech <https://github.com/max13/corona-cg>',
     'now' => CarbonImmutable::now(),
 
+    'facebook' => [
+        'baseApi' => 'https://graph.facebook.com/v7.0',
+        'appId' => '844327956056886',
+        'pageId' => '113479550293166',
+        'permissions' => [
+            'pages_manage_posts',
+            'pages_read_engagement',
+        ],
+
+        'appSecret' => env('FACEBOOK_APP_SECRET'),
+        'clientToken' => env('FACEBOOK_CLIENT_TOKEN'),
+        'userToken' => env('FACEBOOK_USER_TOKEN'),
+        'pageToken' => env('FACEBOOK_PAGE_TOKEN'),
+    ],
+
     'ifttt' => [
         'baseApi' => 'https://maker.ifttt.com/trigger/{event}/with/key/{key}',
         'event' => 'coronacg_new_build',
@@ -22,17 +37,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 683,
+            'n' => 745,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 210,
+            'n' => 229,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 22,
+            'n' => 25,
             'text' => 'Décès',
         ],
     ],
@@ -40,14 +55,14 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 364,
-            'recovered' => 135,
+            'count' => 399,
+            'recovered' => 146,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 305,
-            'recovered' => 72,
+            'count' => 330,
+            'recovered' => 79,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -57,7 +72,7 @@ return [
         // A.K.A: La Bouenza
         'Nkayi' => [
             'coordinates' => [-4.1822, 13.26711],
-            'count' => 7,
+            'count' => 8,
             'recovered' => 0,
         ],
         // Removed because it hides PNR
@@ -70,7 +85,7 @@ return [
         'Ouésso' => [
             'coordinates' => [1.61413, 16.03257],
             'count' => 1,
-            'recovered' => 0,
+            'recovered' => 1,
         ],
         'Madingou' => [
             'coordinates' => [-4.16624, 13.53619],
@@ -95,7 +110,7 @@ return [
         ],
         'Sibiti' => [
             'coordinates' => [-3.68307, 13.33208],
-            'count' => 0,
+            'count' => 1,
             'recovered' => 0,
         ],
         'Mossendjo' => [
@@ -124,6 +139,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°30',
+            'date' => Carbon::parse('2020-06-10'),
+            'filepath' => '/assets/build/files/SITREP-N-57-COVID-19-CONGO-10-06-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°29',
             'date' => Carbon::parse('2020-06-06'),
             'filepath' => '/assets/build/files/SITREP-N-56-COVID-19-CONGO-06-06-2020.pdf',
