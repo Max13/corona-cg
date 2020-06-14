@@ -22,12 +22,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 745,
+            'n' => 779,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 229,
+            'n' => 261,
             'text' => 'Guéris',
         ],
         'deceased' => [
@@ -40,14 +40,14 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 399,
-            'recovered' => 146,
+            'count' => 426,
+            'recovered' => 148,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 330,
-            'recovered' => 79,
+            'count' => 337,
+            'recovered' => 109,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -124,6 +124,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°31',
+            'date' => Carbon::parse('2020-06-12'),
+            'filepath' => '/assets/build/files/SITREP-N-59-COVID-19-CONGO-12-06-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°30',
             'date' => Carbon::parse('2020-06-10'),
             'filepath' => '/assets/build/files/SITREP-N-57-COVID-19-CONGO-10-06-2020.pdf',
