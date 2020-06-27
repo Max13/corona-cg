@@ -22,17 +22,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 779,
+            'n' => 1224,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 261,
+            'n' => 473,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 25,
+            'n' => 40,
             'text' => 'Décès',
         ],
     ],
@@ -40,14 +40,14 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 426,
-            'recovered' => 148,
+            'count' => 742,
+            'recovered' => 283,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 337,
-            'recovered' => 109,
+            'count' => 460,
+            'recovered' => 177,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
@@ -80,7 +80,7 @@ return [
         // A.K.A: La Cuvette
         'Owando' => [
             'coordinates' => [-0.49474, 15.86949],
-            'count' => 1,
+            'count' => 6,
             'recovered' => 1,
         ],
         'Gamboma' => [
@@ -107,7 +107,7 @@ return [
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
             'count' => 5,
-            'recovered' => 2,
+            'recovered' => 5,
         ],
         'Makoua' => [
             'coordinates' => [-0.00631, 15.57827],
@@ -124,6 +124,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°32',
+            'date' => Carbon::parse('2020-06-25'),
+            'filepath' => '/assets/build/files/SITREP-N-64-COVID-19-CONGO-25-06-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°31',
             'date' => Carbon::parse('2020-06-12'),
             'filepath' => '/assets/build/files/SITREP-N-59-COVID-19-CONGO-12-06-2020.pdf',
