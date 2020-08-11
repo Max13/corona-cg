@@ -22,7 +22,7 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 1224,
+            'n' => 3775,
             'text' => 'Confirmés',
         ],
         'recovered' => [
