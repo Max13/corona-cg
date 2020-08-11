@@ -32,7 +32,7 @@ return [
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 40,
+            'n' => 60,
             'text' => 'Décès',
         ],
     ],
