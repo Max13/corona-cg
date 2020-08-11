@@ -22,12 +22,12 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 3775,
+            'n' => 3745,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 500,
+            'n' => 5,
             'text' => 'Guéris',
         ],
         'deceased' => [
