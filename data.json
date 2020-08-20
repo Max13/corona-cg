@@ -1,51 +1,51 @@
 {
     "counters": {
-        "confirmed": 1224,
-        "recovered": 473,
-        "deceased": 40
+        "confirmed": 3850,
+        "recovered": 1628,
+        "deceased": 77
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 742,
-            "recovered": 283
+            "count": 2519,
+            "recovered": 908
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 460,
-            "recovered": 177
+            "count": 1169,
+            "recovered": 695
         },
         {
             "city": "Dolisie",
             "coordinates": [-4.20077,12.63586],
-            "count": 0,
-            "recovered": 0
+            "count": 47,
+            "recovered": 8
         },
         {
             "city": "Nkayi",
             "coordinates": [-4.1822,13.26711],
-            "count": 8,
-            "recovered": 0
+            "count": 19,
+            "recovered": 3
         },
         {
             "city": "Ouésso",
             "coordinates": [1.61413,16.03257],
-            "count": 1,
+            "count": 52,
             "recovered": 1
         },
         {
             "city": "Madingou",
             "coordinates": [-4.16624,13.53619],
-            "count": 0,
-            "recovered": 0
+            "count": 1,
+            "recovered": 1
         },
         {
             "city": "Owando",
             "coordinates": [-0.49474,15.86949],
-            "count": 6,
-            "recovered": 1
+            "count": 12,
+            "recovered": 4
         },
         {
             "city": "Gamboma",
@@ -62,7 +62,7 @@
         {
             "city": "Sibiti",
             "coordinates": [-3.68307,13.33208],
-            "count": 1,
+            "count": 8,
             "recovered": 0
         },
         {
@@ -74,8 +74,8 @@
         {
             "city": "Kinkala",
             "coordinates": [-4.35908,14.75389],
-            "count": 5,
-            "recovered": 5
+            "count": 18,
+            "recovered": 7
         },
         {
             "city": "Makoua",
@@ -86,11 +86,16 @@
         {
             "city": "Oyo",
             "coordinates": [-1.1576484,15.9596584],
-            "count": 0,
-            "recovered": 0
+            "count": 5,
+            "recovered": 1
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°33",
+            "date": "2020-08-17",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-88-COVID-19-CONGO-17-08-2020.pdf"
+        },
         {
             "name": "Déclaration n°32",
             "date": "2020-06-25",
