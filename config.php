@@ -22,17 +22,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 1224,
+            'n' => 3850,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 473,
+            'n' => 1628,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 40,
+            'n' => 77,
             'text' => 'Décès',
         ],
     ],
@@ -40,25 +40,25 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 742,
-            'recovered' => 283,
+            'count' => 2519,
+            'recovered' => 908,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 460,
-            'recovered' => 177,
+            'count' => 1169,
+            'recovered' => 695,
         ],
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
-            'count' => 0,
-            'recovered' => 0,
+            'count' => 47,
+            'recovered' => 8,
         ],
         // A.K.A: La Bouenza
         'Nkayi' => [
             'coordinates' => [-4.1822, 13.26711],
-            'count' => 8,
-            'recovered' => 0,
+            'count' => 19,
+            'recovered' => 3,
         ],
         // Removed because it hides PNR
         // 'Louandjili' => [
@@ -69,19 +69,19 @@ return [
         // A.K.A: La Sangha
         'Ouésso' => [
             'coordinates' => [1.61413, 16.03257],
-            'count' => 1,
+            'count' => 52,
             'recovered' => 1,
         ],
         'Madingou' => [
             'coordinates' => [-4.16624, 13.53619],
-            'count' => 0,
-            'recovered' => 0,
+            'count' => 1,
+            'recovered' => 1,
         ],
         // A.K.A: La Cuvette
         'Owando' => [
             'coordinates' => [-0.49474, 15.86949],
-            'count' => 6,
-            'recovered' => 1,
+            'count' => 12,
+            'recovered' => 4,
         ],
         'Gamboma' => [
             'coordinates' => [-2.08333, 14.66578],
@@ -95,7 +95,7 @@ return [
         ],
         'Sibiti' => [
             'coordinates' => [-3.68307, 13.33208],
-            'count' => 1,
+            'count' => 8,
             'recovered' => 0,
         ],
         'Mossendjo' => [
@@ -106,8 +106,8 @@ return [
         // A.K.A: Le Pool
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
-            'count' => 5,
-            'recovered' => 5,
+            'count' => 18,
+            'recovered' => 7,
         ],
         'Makoua' => [
             'coordinates' => [-0.00631, 15.57827],
@@ -116,14 +116,19 @@ return [
         ],
         'Oyo' => [
             'coordinates' => [-1.1576484, 15.9596584],
-            'count' => 0,
-            'recovered' => 0,
+            'count' => 5,
+            'recovered' => 1,
         ],
     ],
 
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°33',
+            'date' => Carbon::parse('2020-08-17'),
+            'filepath' => '/assets/build/files/SITREP-N-88-COVID-19-CONGO-17-08-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°32',
             'date' => Carbon::parse('2020-06-25'),
             'filepath' => '/assets/build/files/SITREP-N-64-COVID-19-CONGO-25-06-2020.pdf',
