@@ -3,19 +3,19 @@
     <title>Coronavirus (Covid-19) | Congo Tech</title>
     <link href="https://coronavirus.tech.cg" />
     <link type="application/atom+xml" rel="self" href="https://coronavirus.tech.cg/feed.atom" />
-    <updated>2020-08-20T15:18:44+01:00</updated>
+    <updated>2020-09-05T15:42:21+01:00</updated>
     <id>https://coronavirus.tech.cg/feed.atom</id>
     <author>
         <name>Congo Tech &lt;https://github.com/max13/corona-cg&gt;</name>
     </author>
     <entry>
-        <id>https://coronavirus.tech.cg/?D%C3%A9claration%20n%C2%B033</id>
-        <title>Déclaration n°33</title>
-        <published>2020-08-17T00:00:00+01:00</published>
-        <updated>2020-08-20T15:18:44+01:00</updated>
+        <id>https://coronavirus.tech.cg/?D%C3%A9claration%20n%C2%B034</id>
+        <title>Déclaration n°34</title>
+        <published>2020-08-31T00:00:00+01:00</published>
+        <updated>2020-09-05T15:42:21+01:00</updated>
         <link rel="alternate" type="text/html" href="https://coronavirus.tech.cg"/>
         <content type="html"><![CDATA[
-            Dernier bilan du 17 août 2020 en République du Congo 🇨🇬: 3850 cas confirmés, 1628 guéris et 77 décès.<br><br>Plus de détails sur https://coronavirus.tech.cg.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
+            Dernier bilan du 31 août 2020 en République du Congo 🇨🇬: 4628 cas confirmés, 3748 guéris et 81 décès.<br><br>Plus de détails sur https://coronavirus.tech.cg.<br><br>#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG
         ]]></content>
     </entry>
 </feed>
