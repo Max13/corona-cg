@@ -8,19 +8,19 @@
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 3159,
-            "recovered": 2582
+            "count": 3177,
+            "recovered": 2580
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 1174,
-            "recovered": 1069
+            "count": 1355,
+            "recovered": 1205
         },
         {
             "city": "Dolisie",
             "coordinates": [-4.20077,12.63586],
-            "count": 47,
+            "count": 49,
             "recovered": 39
         },
         {
@@ -32,7 +32,7 @@
         {
             "city": "Ouésso",
             "coordinates": [1.61413,16.03257],
-            "count": 84,
+            "count": 122,
             "recovered": 2
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°35",
+            "date": "2020-09-05",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-92-COVID-19-CONGO-05-09-2020.pdf"
+        },
         {
             "name": "Déclaration n°34",
             "date": "2020-08-31",
