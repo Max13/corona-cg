@@ -22,17 +22,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 4867,
+            'n' => 4913,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 3882,
+            'n' => 3887,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 82,
+            'n' => 88,
             'text' => 'Décès',
         ],
     ],
@@ -40,14 +40,14 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 3177,
-            'recovered' => 2580,
+            'count' => 3194,
+            'recovered' => 2581,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 1355,
-            'recovered' => 1205,
+            'count' => 1430,
+            'recovered' => 1209,
         ],
         // A.K.A: Niari
         'Dolisie' => [
@@ -89,11 +89,13 @@ return [
             'count' => 0,
             'recovered' => 0,
         ],
+        // A.K.A: Likouala
         'Impfondo' => [
             'coordinates' => [1.60416, 18.01517],
-            'count' => 0,
+            'count' => 14,
             'recovered' => 0,
         ],
+        // A.K.A: Lékoumou
         'Sibiti' => [
             'coordinates' => [-3.68307, 13.33208],
             'count' => 10,
@@ -126,6 +128,11 @@ return [
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°94',
+            'date' => Carbon::parse('2020-09-09'),
+            'filepath' => '/assets/build/files/SITREP-N-94-COVID-19-CONGO-09-09-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°35',
             'date' => Carbon::parse('2020-09-05'),
             'filepath' => '/assets/build/files/SITREP-N-92-COVID-19-CONGO-05-09-2020.pdf',
