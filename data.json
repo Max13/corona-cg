@@ -1,21 +1,21 @@
 {
     "counters": {
-        "confirmed": 4867,
-        "recovered": 3882,
-        "deceased": 82
+        "confirmed": 4913,
+        "recovered": 3887,
+        "deceased": 88
     },
     "locations": [
         {
             "city": "Brazzaville",
             "coordinates": [-4.27024,15.27065],
-            "count": 3177,
-            "recovered": 2580
+            "count": 3194,
+            "recovered": 2581
         },
         {
             "city": "Pointe-Noire",
             "coordinates": [-4.79884,11.85013],
-            "count": 1355,
-            "recovered": 1205
+            "count": 1430,
+            "recovered": 1209
         },
         {
             "city": "Dolisie",
@@ -56,7 +56,7 @@
         {
             "city": "Impfondo",
             "coordinates": [1.60416,18.01517],
-            "count": 0,
+            "count": 14,
             "recovered": 0
         },
         {
@@ -91,6 +91,11 @@
         }
     ],
     "statements": [
+        {
+            "name": "Déclaration n°94",
+            "date": "2020-09-09",
+            "filepath": "https://coronavirus.tech.cg/assets/build/files/SITREP-N-94-COVID-19-CONGO-09-09-2020.pdf"
+        },
         {
             "name": "Déclaration n°35",
             "date": "2020-09-05",
