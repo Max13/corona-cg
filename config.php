@@ -22,17 +22,17 @@ return [
     'counters' => [
         'confirmed' => [
             'iconpath' => '/assets/build/img/feature/w2.png',
-            'n' => 4913,
+            'n' => 5632,
             'text' => 'Confirmés',
         ],
         'recovered' => [
             'iconpath' => '/assets/build/img/feature/w4.png',
-            'n' => 3887,
+            'n' => 4988,
             'text' => 'Guéris',
         ],
         'deceased' => [
             'iconpath' => '/assets/build/img/feature/w3.png',
-            'n' => 88,
+            'n' => 124,
             'text' => 'Décès',
         ],
     ],
@@ -40,26 +40,26 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 3194,
-            'recovered' => 2581,
+            'count' => 3585,
+            'recovered' => 3189,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 1430,
-            'recovered' => 1209,
+            'count' => 1620,
+            'recovered' => 1444,
         ],
         // A.K.A: Niari
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
-            'count' => 49,
-            'recovered' => 39,
+            'count' => 47,
+            'recovered' => 45,
         ],
         // A.K.A: La Bouenza
         'Nkayi' => [
             'coordinates' => [-4.1822, 13.26711],
-            'count' => 29,
-            'recovered' => 17,
+            'count' => 34,
+            'recovered' => 29,
         ],
         // Removed because it hides PNR
         // 'Louandjili' => [
@@ -70,19 +70,19 @@ return [
         // A.K.A: La Sangha
         'Ouésso' => [
             'coordinates' => [1.61413, 16.03257],
-            'count' => 122,
-            'recovered' => 2,
+            'count' => 131,
+            'recovered' => 131,
         ],
         'Madingou' => [
             'coordinates' => [-4.16624, 13.53619],
-            'count' => 1,
-            'recovered' => 1,
+            'count' => 17,
+            'recovered' => 17,
         ],
         // A.K.A: La Cuvette-Ouest
         'Owando' => [
             'coordinates' => [-0.49474, 15.86949],
             'count' => 55,
-            'recovered' => 10,
+            'recovered' => 55,
         ],
         'Gamboma' => [
             'coordinates' => [-2.08333, 14.66578],
@@ -92,14 +92,14 @@ return [
         // A.K.A: Likouala
         'Impfondo' => [
             'coordinates' => [1.60416, 18.01517],
-            'count' => 14,
-            'recovered' => 0,
+            'count' => 43,
+            'recovered' => 15,
         ],
         // A.K.A: Lékoumou
         'Sibiti' => [
             'coordinates' => [-3.68307, 13.33208],
             'count' => 10,
-            'recovered' => 6,
+            'recovered' => 10,
         ],
         'Mossendjo' => [
             'coordinates' => [-2.96327, 12.72064],
@@ -109,8 +109,8 @@ return [
         // A.K.A: Le Pool
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
-            'count' => 18,
-            'recovered' => 17,
+            'count' => 19,
+            'recovered' => 18,
         ],
         'Makoua' => [
             'coordinates' => [-0.00631, 15.57827],
@@ -120,14 +120,19 @@ return [
         // A.K.A: Cuvette
         'Oyo' => [
             'coordinates' => [-1.1576484, 15.9596584],
-            'count' => 51,
-            'recovered' => 5,
+            'count' => 54,
+            'recovered' => 52,
         ],
     ],
 
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°111',
+            'date' => Carbon::parse('2020-11-16'),
+            'filepath' => '/assets/build/files/SITREP-N-111-COVID-19-CONGO-16-11-2020.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°94',
             'date' => Carbon::parse('2020-09-09'),
             'filepath' => '/assets/build/files/SITREP-N-94-COVID-19-CONGO-09-09-2020.pdf',
