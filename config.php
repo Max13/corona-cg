@@ -40,26 +40,26 @@ return [
     'locations' => [
         'Brazzaville' => [
             'coordinates' => [-4.27024, 15.27065],
-            'count' => 3585,
-            'recovered' => 3189,
+            'count' => 4678,
+            'recovered' => 3743,
         ],
         // + Kouilou
         'Pointe-Noire' => [
             'coordinates' => [-4.79884, 11.85013],
-            'count' => 1620,
-            'recovered' => 1444,
+            'count' => 1899,
+            'recovered' => 1595,
         ],
         // A.K.A: Niari
         'Dolisie' => [
             'coordinates' => [-4.20077, 12.63586],
-            'count' => 47,
+            'count' => 48,
             'recovered' => 45,
         ],
         // A.K.A: La Bouenza
         'Nkayi' => [
             'coordinates' => [-4.1822, 13.26711],
             'count' => 34,
-            'recovered' => 29,
+            'recovered' => 33,
         ],
         // Removed because it hides PNR
         // 'Louandjili' => [
@@ -93,7 +93,7 @@ return [
         'Impfondo' => [
             'coordinates' => [1.60416, 18.01517],
             'count' => 43,
-            'recovered' => 15,
+            'recovered' => 42,
         ],
         // A.K.A: Lékoumou
         'Sibiti' => [
@@ -109,8 +109,8 @@ return [
         // A.K.A: Le Pool
         'Kinkala' => [
             'coordinates' => [-4.35908, 14.75389],
-            'count' => 19,
-            'recovered' => 18,
+            'count' => 21,
+            'recovered' => 19,
         ],
         'Makoua' => [
             'coordinates' => [-0.00631, 15.57827],
@@ -121,13 +121,18 @@ return [
         'Oyo' => [
             'coordinates' => [-1.1576484, 15.9596584],
             'count' => 54,
-            'recovered' => 52,
+            'recovered' => 54,
         ],
     ],
 
     // Keep order
     'official_statements' => [
         [
+            'name' => 'Déclaration n°122',
+            'date' => Carbon::parse('2021-01-01'),
+            'filepath' => '/assets/build/files/SITREP-N-122-COVID-19-CONGO-01-01-2021.pdf',
+            'icon' => '/assets/build/img/icon/pdf.svg',
+        ],[
             'name' => 'Déclaration n°111',
             'date' => Carbon::parse('2020-11-16'),
             'filepath' => '/assets/build/files/SITREP-N-111-COVID-19-CONGO-16-11-2020.pdf',
