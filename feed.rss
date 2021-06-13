@@ -6,14 +6,14 @@
         <atom:link href="https://coronavirus.tech.cg/feed.rss" rel="self" type="application/rss+xml" />
         <description>Site d’informations sur le Coronavirus et son évolution en République du Congo, réalisé par Congo-Tech.</description>
         <language>fr-fr</language>
-        <pubDate>Sun, 13 Jun 2021 15:09:17 +0100</pubDate>
-        <lastBuildDate>Sun, 13 Jun 2021 15:09:17 +0100</lastBuildDate>
+        <pubDate>Sun, 13 Jun 2021 16:08:04 +0100</pubDate>
+        <lastBuildDate>Sun, 13 Jun 2021 16:08:04 +0100</lastBuildDate>
         <item>
             <title>Déclaration n°151</title>
             <guid>https://coronavirus.tech.cg/?D%C3%A9claration+n%C2%B0151</guid>
             <pubDate>Fri, 11 Jun 2021 00:00:00 +0100</pubDate>
             <link>https://coronavirus.tech.cg</link>
-            <description>Dernier bilan du 11 juin 2021 en République du Congo 🇨🇬: 7127 cas confirmés, 5846 guéris et 108 décès.&lt;br&gt;&lt;br&gt;Plus de détails sur https://coronavirus.tech.cg.&lt;br&gt;&lt;br&gt;#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG</description>
+            <description>Dernier bilan du 11 juin 2021 en République du Congo 🇨🇬: 12218 cas confirmés, 11253 guéris et 161 décès.&lt;br&gt;&lt;br&gt;Plus de détails sur https://coronavirus.tech.cg.&lt;br&gt;&lt;br&gt;#ChezMoiAuCongo #RestezChezVous #SauvonsDesVies #COVID19_CG</description>
         </item>
     </channel>
 </rss>
